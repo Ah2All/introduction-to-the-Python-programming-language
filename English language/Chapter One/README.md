@@ -17,9 +17,6 @@
 
 
 ## 🔰 What is programming?
-***
-
-
 > Programming is the process of writing code (text) to build software, programs, websites 
 and mobile applications. In general, programmers use a programming language to create 
 instructions for the computer to create a program (talk to the computer). These 
