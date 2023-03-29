@@ -1,6 +1,5 @@
 # **_💢 introduction to getting started 💢_**
-***
-> In this section, we are going to discuss the topics that you need to understand before starting programming so that you don't run into problems in the future.
+***> In this section, we are going to discuss the topics that you need to understand before starting programming so that you don't run into problems in the future.
 
 ## 🔹The topics we discuss in this chapter:
 
