@@ -14,7 +14,7 @@
 - [What is the algorithm?](#-what-is-the-algorithm) 
 - [What is a flowchart?](#-what-is-a-flowchart)
 
-<\br>
+</br>
 
 ## 🔰 What is programming?
 > Programming is the process of writing code (text) to build software, programs, websites 
@@ -23,7 +23,7 @@ instructions for the computer to create a program (talk to the computer). These
 instructions may include mathematical calculations, data processing, file management, 
 networking, and many other operations
 
-<\br>
+</br>
 
 ## 💠 High, low and intermediate programming language
 - High, low and intermediate programming language :
@@ -43,7 +43,7 @@ used to translate code written in a high-level language into machine code. As an
 we can mention languages like C and C++, which are used in some cases to develop 
 software with great complexity.
 
-<\br>
+</br>
 
 ## 💠 General purpose and special purpose languages
 _Computer languages can be divided into two categories: general-purpose and special purpose (or specialized):_
@@ -65,7 +65,7 @@ These languages can only be used in their specialized field
 _In short, general languages are used to solve a wider variety of problems, while specialized 
 languages are designed to solve more specific and limited problems._
 
-<\br>
+</br>
 
 ## 💠 Interpreted and compiler languages
 _Programming languages are divided into two general categories: "compiler" and "interpreted languages"._
@@ -82,7 +82,7 @@ converting it completely into executable code. In interpreted languages, a progr
 line by line and each line is examined and executed immediately. Languages such as 
 Python, Ruby, and JavaScript are examples of interpreted languages.
 
-<\br>
+</br>
 
 ## 💠 Static, dynamic, strong and weak typing languages :
 _Programming languages are divided into four categories in terms of typing:_
@@ -115,7 +115,7 @@ the data type conversion is done with easy access and without checking the rules
 validating the data type, its type is automatically determined according to the type of operation.
 Example: PHP, Perl, JavaScript.
 
-<\br>
+</br>
 
 ## 💠 Programming paradigms :
 _Paradigm programming is an approach used to design and implement programs. These 
@@ -134,7 +134,7 @@ _Each programming paradigm has its own advantages and disadvantages, and choosin
 paradigm that suits your project needs can help improve program quality and reduce 
 development costs._
 
-<\br>
+</br>
 
 ## 💠 The story of Python (History)
 > Python is a high-level, interpreted, general-purpose programming language that was 
@@ -154,7 +154,7 @@ world, and many companies and developers use it. Python is an easy and powerful
 language that provides many features for developers and is currently recognized as one of 
 the top programming languages in the world.
 
-<\br>
+</br>
 
 ## 💠 Applications of Python :
 - Web development and web development frameworks such as Django, Flask and 
@@ -173,7 +173,7 @@ systems, systems based on speech and text processing
 - Development and construction of various monitoring systems and organization of 
 networks and services.
 
-<\br>
+</br>
 
 ## 💠 What is the algorithm?
 
@@ -186,7 +186,7 @@ necessary ingredients and defines the steps to be taken in a specific order to c
 finished product. Similarly, in programming, an algorithm defines a set of steps that need 
 to be executed in a specific order to achieve the desired outcome.
 
-<\br>
+</br>
 
 ## 💠 What is a flowchart?
 A flowchart is a graphical representation of a process or algorithm. It uses symbols and 
@@ -202,7 +202,7 @@ allow people to identify potential problems and bottlenecks in a process, and to
 more efficient or effective solutions. They can also be used to communicate processes to 
 others and to document processes for reference purposes.
 
-<\br>
+</br>
 
 _Alireza Allahyarian - writer_
 
