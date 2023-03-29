@@ -204,13 +204,7 @@ others and to document processes for reference purposes.
 
 </br>
 
-_Alireza Allahyarian - writer_
-
-- [Website](microhex.info) 
-- [linkedin](https://www.linkedin.com/in/alireza-allahyarian-658658258/)
-- [GitHub](https://github.com/graymicro) 
-- [Tlegeram](t.me/graycubeteam) 
-
+### 🖊 the writer : Alireza Allahyarian - [Website](http://microhex.info/) - [linkedin](https://www.linkedin.com/in/alireza-allahyarian-658658258/)- [GitHub](https://github.com/graymicro) - [Tlegeram](https://t.me/graycubeteam) 
 [graycubeteam.github.io](graycubeteam.github.io)
 **license by gray cube team**
 
