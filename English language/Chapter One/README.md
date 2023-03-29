@@ -1,11 +1,6 @@
-# 
 # **_💢 introduction to getting started 💢_**
 ***
-##
 > In this section, we are going to discuss the topics that you need to understand before starting programming so that you don't run into problems in the future.
-
-#
-#
 
 ## 🔹The topics we discuss in this chapter:
 
@@ -20,13 +15,11 @@
 - [What is the algorithm?](#-what-is-the-algorithm) 
 - [What is a flowchart?](#-what-is-a-flowchart)
 
-##
-##
-##
+
 
 ## 🔰 What is programming?
 ***
-###
+
 
 > Programming is the process of writing code (text) to build software, programs, websites 
 and mobile applications. In general, programmers use a programming language to create 
@@ -34,13 +27,11 @@ instructions for the computer to create a program (talk to the computer). These
 instructions may include mathematical calculations, data processing, file management, 
 networking, and many other operations
 
-##
-##
-##
+
 
 ## 💠 High, low and intermediate programming language
 ***
-###
+
 - High, low and intermediate programming language :
 These languages are designed to develop programs of varying complexity and are easy for 
 programmers to understand and write. High-level languages are commonly used to 
@@ -58,13 +49,11 @@ used to translate code written in a high-level language into machine code. As an
 we can mention languages like C and C++, which are used in some cases to develop 
 software with great complexity.
 
-###
-###
-###
+
 
 ## 💠 General purpose and special purpose languages
 ***
-###
+
 _Computer languages can be divided into two categories: general-purpose and special purpose (or specialized):_
 
 - Multipurpose languages or General Purpose Language :
@@ -84,13 +73,10 @@ These languages can only be used in their specialized field
 _In short, general languages are used to solve a wider variety of problems, while specialized 
 languages are designed to solve more specific and limited problems._
 
-###
-###
-###
 
 ## 💠 Interpreted and compiler languages
 ***
-###
+
 _Programming languages are divided into two general categories: "compiler" and "interpreted languages"._
 
 - Compiled languages, through a computer program called a compiler, convert the source 
@@ -105,13 +91,9 @@ converting it completely into executable code. In interpreted languages, a progr
 line by line and each line is examined and executed immediately. Languages such as 
 Python, Ruby, and JavaScript are examples of interpreted languages.
 
-###
-###
-###
-
 ## 💠 Static, dynamic, strong and weak typing languages :
 ***
-###
+
 _Programming languages are divided into four categories in terms of typing:_
 
 - Static typing type:
@@ -142,9 +124,7 @@ the data type conversion is done with easy access and without checking the rules
 validating the data type, its type is automatically determined according to the type of operation.
 Example: PHP, Perl, JavaScript.
 
-###
-###
-###
+
 
 ## 💠 Programming paradigms :
 ***
@@ -164,14 +144,11 @@ _Each programming paradigm has its own advantages and disadvantages, and choosin
 paradigm that suits your project needs can help improve program quality and reduce 
 development costs._
 
-###
-###
-###
+
 
 ## 💠 The story of Python (History)
 ***
-##
-##
+
 > Python is a high-level, interpreted, general-purpose programming language that was 
 designed by Guido van Rossum in 1989.
 Initially, Guido was one of the developers who wrote a game in the Amoeba operating 
@@ -189,9 +166,6 @@ world, and many companies and developers use it. Python is an easy and powerful
 language that provides many features for developers and is currently recognized as one of 
 the top programming languages in the world.
 
-###
-###
-###
 
 ## 💠 Applications of Python :
 ***
@@ -212,9 +186,6 @@ systems, systems based on speech and text processing
 - Development and construction of various monitoring systems and organization of 
 networks and services.
 
-###
-###
-###
 
 ## 💠 What is the algorithm?
 ***
@@ -227,9 +198,6 @@ necessary ingredients and defines the steps to be taken in a specific order to c
 finished product. Similarly, in programming, an algorithm defines a set of steps that need 
 to be executed in a specific order to achieve the desired outcome.
 
-###
-###
-###
 
 ## 💠 What is a flowchart?
 ***
@@ -247,15 +215,8 @@ allow people to identify potential problems and bottlenecks in a process, and to
 more efficient or effective solutions. They can also be used to communicate processes to 
 others and to document processes for reference purposes.
 
-###
-###
-###
-###
-###
-###
 
-
-==_Alireza Allahyarian - writer_==
+_Alireza Allahyarian - writer_
 
 - [Website](microhex.info) 
 - [linkedin](https://www.linkedin.com/in/alireza-allahyarian-658658258/)
