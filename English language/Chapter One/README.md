@@ -26,8 +26,6 @@ networking, and many other operations
 
 
 ## 💠 High, low and intermediate programming language
-***
-
 - High, low and intermediate programming language :
 These languages are designed to develop programs of varying complexity and are easy for 
 programmers to understand and write. High-level languages are commonly used to 
@@ -48,8 +46,6 @@ software with great complexity.
 
 
 ## 💠 General purpose and special purpose languages
-***
-
 _Computer languages can be divided into two categories: general-purpose and special purpose (or specialized):_
 
 - Multipurpose languages or General Purpose Language :
@@ -71,8 +67,6 @@ languages are designed to solve more specific and limited problems._
 
 
 ## 💠 Interpreted and compiler languages
-***
-
 _Programming languages are divided into two general categories: "compiler" and "interpreted languages"._
 
 - Compiled languages, through a computer program called a compiler, convert the source 
@@ -88,8 +82,6 @@ line by line and each line is examined and executed immediately. Languages such 
 Python, Ruby, and JavaScript are examples of interpreted languages.
 
 ## 💠 Static, dynamic, strong and weak typing languages :
-***
-
 _Programming languages are divided into four categories in terms of typing:_
 
 - Static typing type:
@@ -123,7 +115,6 @@ Example: PHP, Perl, JavaScript.
 
 
 ## 💠 Programming paradigms :
-***
 _Paradigm programming is an approach used to design and implement programs. These 
 approaches include a set of rules and concepts that determine how programs should be 
 written and how different programming practices should be implemented._
@@ -143,8 +134,6 @@ development costs._
 
 
 ## 💠 The story of Python (History)
-***
-
 > Python is a high-level, interpreted, general-purpose programming language that was 
 designed by Guido van Rossum in 1989.
 Initially, Guido was one of the developers who wrote a game in the Amoeba operating 
@@ -164,8 +153,6 @@ the top programming languages in the world.
 
 
 ## 💠 Applications of Python :
-***
-
 - Web development and web development frameworks such as Django, Flask and 
 Pyramid
 - Development of desktop applications and version control management tools such 
@@ -184,7 +171,7 @@ networks and services.
 
 
 ## 💠 What is the algorithm?
-***
+
 An algorithm is a sequence of well-defined steps that perform a specific task or solve a 
 particular problem. In other words, it is a set of rules or instructions that a computer 
 program follows to solve a problem. Algorithms are used in programming to automate 
@@ -196,8 +183,6 @@ to be executed in a specific order to achieve the desired outcome.
 
 
 ## 💠 What is a flowchart?
-***
-
 A flowchart is a graphical representation of a process or algorithm. It uses symbols and 
 diagrams to visualize the steps of a process, and the sequence in which they occur. 
 Flowcharts are commonly used in computer programming, business processes, 
