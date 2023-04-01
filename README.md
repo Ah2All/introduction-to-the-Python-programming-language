@@ -14,14 +14,14 @@
 Here, we try to give you a complete introduction to the Python language, so that you can easily understand the various concepts of this field and not face any problems in the learning process.
 This repository can always be by your side as a cheat sheet for help and guidance in Python and programming projects.
 
-This repository is written in Persian and [English](https://github.com/graymicro/introduction-to-the-Python-programming-language/tree/master/English%20language) languages, you can access the contents by choosing either of them.
+This repository is written in [Persian](https://github.com/graymicro/introduction-to-the-Python-programming-language/tree/master/Persian%20language) and [English](https://github.com/graymicro/introduction-to-the-Python-programming-language/tree/master/English%20language) languages, you can access the contents by choosing either of them.
 
 #### 🔷 دقیقا اینجا چه خبره؟
 > پایتون یکی از محبوب‌ترین زبان‌های برنامه‌نویسی است که به دلیل سادگی و قدرت بالایش، برای برنامه‌نویسان و علاقه‌مندان به این حوزه بسیار جذاب و مفید است. با استفاده از پایتون، می‌توان به راحتی، برنامه‌های کاربردی، وب‌سایت‌ها، بازی‌ها، و بسیاری از پروژه‌های دیگر را توسعه داد.
 در اینجا، سعی می‌کنیم مقدمه‌ای کامل از زبان پایتون را به شما ارائه دهیم، تا بتوانید به راحتی مفاهیم مختلف این حوزه را درک کنید و در فرایند آموزش با مشکل مواجه نشوید.
 این ریپازیتوری، می‌تواند همیشه در کنار شما به عنوان یک برگه تقلب، برای کمک و راهنمایی در انجام پروژه‌های پایتون و برنامه‌نویسی، قرار بگیرد.
 
-این ریپازیتوری به دو زبان فارسی و [انگلیسی](https://github.com/graymicro/introduction-to-the-Python-programming-language/tree/master/English%20language) نوشته شده است که شما میتوانید با انتخاب هر کدام از آن ها به محتویات دسترسی داشته باشید 
+این ریپازیتوری به دو [زبان فارسی](https://github.com/graymicro/introduction-to-the-Python-programming-language/tree/master/Persian%20language) و [انگلیسی](https://github.com/graymicro/introduction-to-the-Python-programming-language/tree/master/English%20language) نوشته شده است که شما میتوانید با انتخاب هر کدام از آن ها به محتویات دسترسی داشته باشید 
 
 
 ***
