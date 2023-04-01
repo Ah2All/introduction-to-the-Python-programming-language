@@ -21,7 +21,7 @@ This repository is written in [Persian](https://github.com/graymicro/introductio
 در اینجا، سعی می‌کنیم مقدمه‌ای کامل از زبان پایتون را به شما ارائه دهیم، تا بتوانید به راحتی مفاهیم مختلف این حوزه را درک کنید و در فرایند آموزش با مشکل مواجه نشوید.
 این ریپازیتوری، می‌تواند همیشه در کنار شما به عنوان یک برگه تقلب، برای کمک و راهنمایی در انجام پروژه‌های پایتون و برنامه‌نویسی، قرار بگیرد.
 
-این ریپازیتوری به دو [زبان فارسی](https://github.com/graymicro/introduction-to-the-Python-programming-language/tree/master/Persian%20language) و [انگلیسی](https://github.com/graymicro/introduction-to-the-Python-programming-language/tree/master/English%20language) نوشته شده است که شما میتوانید با انتخاب هر کدام از آن ها به محتویات دسترسی داشته باشید 
+این ریپازیتوری به دو زبان [فارسی](https://github.com/graymicro/introduction-to-the-Python-programming-language/tree/master/Persian%20language) و [انگلیسی](https://github.com/graymicro/introduction-to-the-Python-programming-language/tree/master/English%20language) نوشته شده است که شما میتوانید با انتخاب هر کدام از آن ها به محتویات دسترسی داشته باشید 
 
 
 ***
