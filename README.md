@@ -1,4 +1,4 @@
-#fdjfdg
+
 ![Alt text](src/F3.png)
 
 <h3 align="center">"Programming is a different perspective and lifestyle"</h3>
