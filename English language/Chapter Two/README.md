@@ -1,3 +1,10 @@
+## ⭕️ The topics we discuss in this chapter:
+
+- [Concept of IDE & text editor](#concept-of-ide--text-editor)
+- [Install Python](#-high-low-and-intermediate-programming-language)
+
+
+
 # 💎Concept of IDE & Text Editor
 > IDE and Text Editors are programs that developers use to write, edit, and manage programs and provide them with various features.
 However, there are differences between the two, which we will discuss below
