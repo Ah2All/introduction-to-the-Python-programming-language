@@ -16,3 +16,16 @@ However, there are differences between the two, which we will discuss below
 
 ![Alt text](../../src/ProgrammingEditors.jpg)
 
+</br>
+
+## 💢The difference between IDE and text editor
+
+1. IDE (Integrated Development Environment) is an integrated development environment that includes tools such as coding, debugging, compiling, and testing. These tools are automatically synchronized with each other and help programmers quickly build complex programs.
+
+2. Text Editor is a program used for editing and writing programming code. These tools typically only have text editing capabilities and do not have any other tools such as debuggers, compilers, and testers.
+
+3. IDEs are typically used for complex and large projects, while Text Editors are used for smaller and simpler projects.
+
+4. IDEs have the ability to detect code errors and help programmers run the program better and faster, while Text Editors do not have this capability.
+
+5. IDEs are usually designed for specific programming languages such as Java, C++, and Python, while Text Editors can be used for all programming languages.
