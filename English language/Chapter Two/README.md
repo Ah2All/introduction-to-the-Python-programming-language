@@ -8,7 +8,7 @@ However, there are differences between the two, which we will discuss below
 ### **Concept Text Editor** =>
 - A text editor is a software application used for editing plain text files. Unlike an IDE, a text editor does not have any built-in features for compiling or debugging code. Text editors are used mainly by developers who prefer lightweight, customizable tools for writing code. Some popular text editors include Atom, Sublime Text, and Visual Studio Code.
 
-_While both IDEs and text editors can be used for writing code, the main difference between them is that IDEs provide a more comprehensive set of tools designed specifically for software development, while text editors offer a more minimalistic approach with fewer built-in features. Ultimately, the choice between using an IDE or a text editor comes down to personal preference and the specific needs of the developer._
+###### While both IDEs and text editors can be used for writing code, the main difference between them is that IDEs provide a more comprehensive set of tools designed specifically for software development, while text editors offer a more minimalistic approach with fewer built-in features. Ultimately, the choice between using an IDE or a text editor comes down to personal preference and the specific needs of the developer.
 
 </br>
 
