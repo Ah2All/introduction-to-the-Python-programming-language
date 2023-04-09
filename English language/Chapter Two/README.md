@@ -43,3 +43,10 @@ However, there are differences between the two, which we will discuss below
 
 # 🐍 How to Install Python
 > In this article, we will teach you how to install Python on Windows. Unlike other operating systems such as Mac OS and Linux, the Python programming language is not installed by default on the Windows operating system. However, this does not mean that this programming language will not be useful for Windows users or that Windows users will not be able to program their own applications using this language.
+
+Step 1 — Downloading the Python Installer
+1. Go to the official Python download page for Windows.
+
+2. Find a stable Python 3 release. This tutorial was tested with Python version 3.10.10.
+
+3. Click the appropriate link for your system to download the executable file: Windows installer (64-bit) or Windows installer (32-bit).
