@@ -110,3 +110,7 @@ An example of the output is:
 Output
 Python 3.10.10
 ```
+
+### 🖊 the writer : Alireza Allahyarian - [Website](http://microhex.info/) - [linkedin](https://www.linkedin.com/in/alireza-allahyarian-658658258/)- [GitHub](https://github.com/graymicro) - [Tlegeram](https://t.me/graycubeteam) 
+[graycubeteam.github.io](graycubeteam.github.io)
+**license by gray cube team**
