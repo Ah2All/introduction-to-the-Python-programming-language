@@ -6,8 +6,8 @@
 
 
 # 💎مفهوم IDE و ویرایشگر متن
-> IDE and Text Editors are programs that developers use to write, edit, and manage programs and provide them with various features.
-However, there are differences between the two, which we will discuss below
+> یک IDE و Text Editor برنامه هایی هستند که توسعه دهندگان برای نوشتن، ویرایش و مدیریت برنامه ها از آن ها استفاده می‌کنند و امکانات های مختلفی را برای آن ها فراهم می‌کنند 
+اما با این حال تفاوت هایی بین این دو وجود دارد که در ادامه آن ها را برسی می‌کنیم
 
 ### **Concept IDE** =>
 - An Integrated Development Environment (IDE) is a software application that provides comprehensive facilities to computer programmers for software development. An IDE typically consists of a source code editor, build automation tools, and a debugger. It can also include features like version control integration, graphical user interface (GUI) builders, and many other tools that help simplify and automate the software development process.
