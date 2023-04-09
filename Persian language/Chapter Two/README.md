@@ -1,11 +1,11 @@
-## ⭕️ The topics we discuss in this chapter:
+## ⭕️ موضوعاتی که در این فصل مورد بحث قرار می‌دهیم:
 
-- [Concept of IDE & text editor](#concept-of-ide--text-editor)
-- [Install Python](#-how-to-install-python)
+- [مفهوم IDE و ویرایشگر متن](#concept-of-ide--text-editor)
+- [نصب زبان برنامه نویسی پایتون](#-how-to-install-python)
 
 
 
-# 💎Concept of IDE & Text Editor
+# 💎مفهوم IDE و ویرایشگر متن
 > IDE and Text Editors are programs that developers use to write, edit, and manage programs and provide them with various features.
 However, there are differences between the two, which we will discuss below
 
