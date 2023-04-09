@@ -44,7 +44,7 @@ This repository is written in [Persian](https://github.com/graymicro/introductio
   -  🌀 What is the algorithm? 
   -  🌀 What is a flowchart?
 
-- Chapter Two
+- Chapter Two [(English language)](https://github.com/graymicro/introduction-to-the-Python-programming-language/tree/master/English%20language/Chapter%20Two)  [(Persian language)](https://github.com/graymicro/introduction-to-the-Python-programming-language/tree/master/Persian%20language/Chapter%20Two)
 
   -  🌀 Concept of IDE & text editor
   -  🌀 Install python 
