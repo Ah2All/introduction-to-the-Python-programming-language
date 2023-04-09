@@ -39,5 +39,7 @@ However, there are differences between the two, which we will discuss below
 
 ***
 
+</br>
+
 # 🐍 How to Install Python
-In this article, we will teach you how to install Python on Windows. Unlike other operating systems such as Mac OS and Linux, the Python programming language is not installed by default on the Windows operating system. However, this does not mean that this programming language will not be useful for Windows users or that Windows users will not be able to program their own applications using this language.
+> In this article, we will teach you how to install Python on Windows. Unlike other operating systems such as Mac OS and Linux, the Python programming language is not installed by default on the Windows operating system. However, this does not mean that this programming language will not be useful for Windows users or that Windows users will not be able to program their own applications using this language.
