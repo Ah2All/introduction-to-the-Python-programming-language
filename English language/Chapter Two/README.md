@@ -1,7 +1,7 @@
 ## ⭕️ The topics we discuss in this chapter:
 
 - [Concept of IDE & text editor](#concept-of-ide--text-editor)
-- [Install Python](#-high-low-and-intermediate-programming-language)
+- [Install Python](#-how-to-install-python)
 
 
 
