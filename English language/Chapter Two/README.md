@@ -50,3 +50,9 @@ Step 1 — Downloading the Python Installer
 2. Find a stable Python 3 release. This tutorial was tested with Python version 3.10.10.
 
 3. Click the appropriate link for your system to download the executable file: Windows installer (64-bit) or Windows installer (32-bit).
+
+![Alt text](../../src/1.png)
+![Alt text](../../src/2.png)
+![Alt text](../../src/3.png)
+![Alt text](../../src/4.png)
+![Alt text](../../src/5.png)
