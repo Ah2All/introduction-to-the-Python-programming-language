@@ -36,3 +36,8 @@ However, there are differences between the two, which we will discuss below
 4. IDEs have the ability to detect code errors and help programmers run the program better and faster, while Text Editors do not have this capability.
 
 5. IDEs are usually designed for specific programming languages such as Java, C++, and Python, while Text Editors can be used for all programming languages.
+
+***
+
+# 🐍 How to Install Python
+In this article, we will teach you how to install Python on Windows. Unlike other operating systems such as Mac OS and Linux, the Python programming language is not installed by default on the Windows operating system. However, this does not mean that this programming language will not be useful for Windows users or that Windows users will not be able to program their own applications using this language.
