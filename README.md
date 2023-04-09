@@ -31,7 +31,7 @@ This repository is written in [Persian](https://github.com/graymicro/introductio
 <br />
 
 
-- Chapter One
+- Chapter One [(English language)](https://github.com/graymicro/introduction-to-the-Python-programming-language/tree/master/English%20language/Chapter%20One)[(Persian language)](https://github.com/graymicro/introduction-to-the-Python-programming-language/tree/master/Persian%20language/Chapter%20One)
 
   -  🌀 What is programming?
   -  🌀 High, low and intermediate programming language
