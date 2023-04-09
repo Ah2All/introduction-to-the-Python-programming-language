@@ -61,10 +61,13 @@ However, there are differences between the two, which we will discuss below
 3. Select the Add python.exe to PATH checkbox, which enables users to launch Python from the command line.
 
 ![Alt text](../../src/2.png)
+
 4. If you’re just getting started with Python and you want to install it with default features as described in the dialog, then click Install Now and go to Step 4 - Verify the Python Installation. To install other optional and advanced features, click Customize installation and continue.
 
 5. The Optional Features include common tools and resources for Python and you can install all of them, even if you don’t plan to use them.
+
 ![Alt text](../../src/3.png)
+
 **Select some or all of the following options:**
 
 - Documentation: recommended
@@ -75,7 +78,9 @@ However, there are differences between the two, which we will discuss below
 
 6. Click Next.
 7. The Advanced Options dialog displays.
+
 ![Alt text](../../src/4.png)
+
 **Select the options that suit your requirements:**
 
 - Install for all users: recommended if you’re not the only user on this computer
@@ -88,6 +93,7 @@ However, there are differences between the two, which we will discuss below
 
 8. Click Install to start the installation.
 9. After the installation is complete, a Setup was successful message displays.
+
 ![Alt text](../../src/5.png)
 
 Step 3 — Verify the Python Installation
