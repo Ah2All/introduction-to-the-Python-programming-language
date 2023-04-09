@@ -59,6 +59,7 @@ However, there are differences between the two, which we will discuss below
 2. Select the Install launcher for all users checkbox, which enables all users of the computer to access the Python launcher application.
 
 3. Select the Add python.exe to PATH checkbox, which enables users to launch Python from the command line.
+
 ![Alt text](../../src/2.png)
 4. If you’re just getting started with Python and you want to install it with default features as described in the dialog, then click Install Now and go to Step 4 - Verify the Python Installation. To install other optional and advanced features, click Customize installation and continue.
 
@@ -97,4 +98,9 @@ Go to Start and enter cmd in the search bar. Click Command Prompt.
 Enter the following command in the command prompt:
 ```
 python --version
+```
+An example of the output is:
+```
+Output
+Python 3.10.10
 ```
