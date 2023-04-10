@@ -145,6 +145,114 @@ print(message) # Output: Hello, John!
 - Dictionaries (dict): Collection of key-value pairs enclosed in curly braces with colons separating the keys and values.
 
 **Data types are important because they determine the type of operations we can perform on a variable, how it behaves in certain situations, and how it is stored in memory.**
+</br>
 
 #
 
+</br>
+### 📌 Python Strings
+> Strings in python are surrounded by either single quotation marks, or double quotation marks. 
+**'hello' is the same as "hello".**
+Example:
+```python
+print("Hello")
+print('Hello')
+```
+Output :
+```python:
+Hello
+Hello
+```
+#### 🔹Assign String to a Variable
+Assigning a string to a variable is done with the variable name followed by an equal sign and the string:
+Example:
+```python:
+a = "Hello"
+print(a)
+```
+Output :
+```python:
+Hello
+```
+#### 🔹Multiline Strings
+You can assign a multiline string to a variable by using three quotes:
+Example:
+```python:
+a = """Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua."""
+print(a)
+
+#or 
+
+a = """Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua."""
+print(a)
+```
+Output :
+```python:
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.
+```
+
+#### 💢 Slicing Strings
+You can return a range of characters by using the slice syntax.
+Specify the start index and the end index, separated by a colon, to return a part of the string.
+Example:
+```python:
+b = "Hello, World!"
+print(b[2:5])
+```
+Output :
+```python:
+llo
+```
+**⭕️Note: The first character has index 0.**
+
+#### 💢 Modify Strings
+Python has a set of built-in methods that you can use on strings.
+Example:
+```python:
+string = "python is amazing"
+print(string.capitalize()) #capitalize():
+# Output: "Python is amazing"
+
+string = "python is amazing"
+print(string.upper())
+# Output: "PYTHON IS AMAZING"
+
+string = "PYTHON IS AMAZING"
+print(string.lower())
+# Output: "python is amazing"
+
+string = "Python, is, amazing"
+lst = string.split(",")
+print(lst)
+# Output: ['Python', ' is', ' amazing']
+
+string = "Python is amazing"
+new_string = string.replace("Python", "Java")
+print(new_string)
+# Output: "Java is amazing"
+
+string = "PYTHON IS AMAZING"
+print(len(string))
+# Output: 17
+```
+
+Example :
+```python:
+a = "Alireza "
+b = "Allahyarian"
+print(a+b)
+```
+
+Output :
+```python:
+Alireza Allahyarian
+```
