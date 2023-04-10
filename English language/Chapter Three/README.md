@@ -1,6 +1,8 @@
 ## 🔹The topics we discuss in this chapter:
 
-- variable
+- [Concept of Variable](#concept-of-variable)
+   - [How to define a variable in Python](#how-to-define-a-variable-in-python)
+   - [Rules for Python variables](#%EF%B8%8F-rules-for-python-variables)
 - Data Type
    - (string, integers, bool, float) 
    - Data Structures(List, Tuple, Dictionaries, set)
@@ -120,4 +122,7 @@ name = "John"
 message = "Hello, " + name + "!"
 print(message) # Output: Hello, John!
 ```
+***
 
+## 💎Concept of Variable
+> In Python, a variable is a name that refers to a value. It is used to store and manipulate data. When you create a variable in Python, you must choose a name for it, assign it a value, and declare its data type (although in most cases, Python automatically detects the data type based on the assigned value).
