@@ -78,11 +78,12 @@
 - py launcher and for all users: recommended to enable users to launch Python from the command line
 
 6️⃣ روی Next کلیک کنید.
+
 7️⃣ گفتگوی گزینه های پیشرفته نمایش داده می شود.
 
 ![Alt text](../../src/4.png)
 
-**گزینه های متناسب با نیاز شما را انتخاب کنید:**
+**گزینه های متناسب با نیاز خود را انتخاب کنید:**
 
 - Install for all users: recommended if you’re not the only user on this computer
 - Associate files with Python: recommended, because this option associates all the Python file types with the launcher or editor
