@@ -14,7 +14,9 @@
 **⭕️ It is like a container into which we pour something and then use it**
 
 </br>
+
 #
+
 ### 🔻How to define a variable in Python🔻
 To define a variable in Python, we first specify the variable name and then use the equal sign (=) to assign the desired value to the variable. For example:
 
