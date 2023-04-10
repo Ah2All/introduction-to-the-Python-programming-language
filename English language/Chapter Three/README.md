@@ -51,3 +51,13 @@ Illegal variable names:
 my-var = "John"
 my var = "John"
 ```
+#
+### 💢 Python Variables - Assign Multiple Values
+#### Many Values to Multiple Variables
+Python allows you to assign values to multiple variables in one line:
+```python:
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
+```
