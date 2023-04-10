@@ -53,7 +53,7 @@ my var = "John"
 ```
 #
 ### 💢 Python Variables - Assign Multiple Values
-#### Many Values to Multiple Variables
+#### 🔹Many Values to Multiple Variables
 Python allows you to assign values to multiple variables in one line:
 ```python:
 x, y, z = "Orange", "Banana", "Cherry"
@@ -61,3 +61,63 @@ print(x)
 print(y)
 print(z)
 ```
+#### 🔹One Value to Multiple Variables
+And you can assign the same value to multiple variables in one line:
+```python:
+x = y = z = "Orange"
+print(x)
+print(y)
+print(z)
+```
+### 💢 Python - Output Variables
+#### 🔹Output Variables
+The Python print() function is often used to output variables.
+```python:
+x = "Python is awesome"
+print(x)
+```
+Output :
+```python:
+Python is awesome
+```
+In the print() function, you output multiple variables, separated by a comma:
+```python:
+x = "Python"
+y = "is"
+z = "awesome"
+print(x, y, z)
+```
+Output :
+```python:
+Python is awesome
+```
+You can also use the + operator to output multiple variables:
+```python:
+x = "Python"
+y = "is"
+z = "awesome"
+print(x + y + z)
+```
+Output :
+```python:
+Python is awesome
+```
+**🛑 Notice the space character after "Python " and "is ", without them the result would be "Pythonisawesome".**
+
+For numbers, the + character works as a mathematical operator:
+```python:
+x = 5
+y = 10
+print(x + y)
+```
+Output :
+```python:
+15
+```
+Example :
+```python
+name = "John"
+message = "Hello, " + name + "!"
+print(message) # Output: Hello, John!
+```
+
