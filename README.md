@@ -51,8 +51,8 @@ This repository is written in [Persian](https://github.com/graymicro/introductio
 
 - Chapter Three
 
-  -  🌀 variable 
-  -  🌀 Data Type :
+  -  🌀 Concept of Variable 
+  -  🌀 Python Data Types
   
      - string 
      - integers 
