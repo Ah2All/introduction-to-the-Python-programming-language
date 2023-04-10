@@ -5,7 +5,7 @@
    - [How to define a variable in Python](#how-to-define-a-variable-in-python)
    - [Rules for Python variables](#%EF%B8%8F-rules-for-python-variables)
    
-- Python Data Types
+- [Python Data Types](#-python-data-types)
 
    - (string, integers, bool, float) 
    - Data Structures(List, Tuple, Dictionaries, set)
