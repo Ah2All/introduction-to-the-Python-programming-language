@@ -245,7 +245,7 @@ string = "PYTHON IS AMAZING"
 print(len(string))
 # Output: 17
 ```
-**[String Methods](https://www.w3schools.com/python/python_strings_methods.asp)**
+**⭕️[String Methods](https://www.w3schools.com/python/python_strings_methods.asp)⭕️**
 
 Example :
 ```python:
