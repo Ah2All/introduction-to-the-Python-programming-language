@@ -127,7 +127,9 @@ message = "Hello, " + name + "!"
 print(message) # Output: Hello, John!
 ```
 </br>
+
 ***
+
 </br>
 
 ## 💎 Python Data Types
