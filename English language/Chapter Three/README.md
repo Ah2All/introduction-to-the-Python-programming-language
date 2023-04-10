@@ -22,3 +22,26 @@ age = 30
 height = 1.75
 ```
 In this example, three variables named name, age, and height are defined, and they point to the values "John", 30, and 1.75, respectively. These values can be strings, integers or floats, or even other data types.
+
+### ♨️ Rules for Python variables:
+- A variable name must start with a letter or the underscore character
+- A variable name cannot start with a number
+- A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+- Variable names are case-sensitive (age, Age and AGE are three different variables)
+- A variable name cannot be any of the Python keywords.
+
+For example:
+```python:
+myvar = "John"
+my_var = "John"
+_my_var = "John"
+myVar = "John"
+MYVAR = "John"
+myvar2 = "John"
+```
+Illegal variable names:
+```python:
+2myvar = "John"
+my-var = "John"
+my var = "John"
+```
