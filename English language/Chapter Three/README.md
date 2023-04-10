@@ -7,7 +7,7 @@
    
 - [Python Data Types](#-python-data-types)
 
-   - (string, integers, bool, float) 
+   - ([string](#-python-strings), integers, bool, float) 
    - Data Structures(List, Tuple, Dictionaries, set)
    
 - Convert data types to each other
