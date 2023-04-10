@@ -2,5 +2,6 @@
 
 - variable
 - Data Type
+   - (string, integers, bool, float) 
    - Data Structures(List, Tuple, Dictionaries, set)
 - Convert data types to each other
