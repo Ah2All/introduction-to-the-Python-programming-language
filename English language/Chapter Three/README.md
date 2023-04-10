@@ -3,7 +3,7 @@
 - [Concept of Variable](#concept-of-variable)
    - [How to define a variable in Python](#how-to-define-a-variable-in-python)
    - [Rules for Python variables](#%EF%B8%8F-rules-for-python-variables)
-- Data Type
+- Python Data Types
    - (string, integers, bool, float) 
    - Data Structures(List, Tuple, Dictionaries, set)
 - Convert data types to each other
@@ -124,5 +124,17 @@ print(message) # Output: Hello, John!
 ```
 ***
 
-## 💎Concept of Variable
-> In Python, a variable is a name that refers to a value. It is used to store and manipulate data. When you create a variable in Python, you must choose a name for it, assign it a value, and declare its data type (although in most cases, Python automatically detects the data type based on the assigned value).
+## 💎 Python Data Types
+> In Python, a data type refers to the type of value that a variable holds. Python has several built-in data types including:
+
+- Integers (int): Whole numbers without decimal points
+- Floating-point numbers (float): Numbers with decimal points
+- Strings (str): Ordered sequence of characters enclosed in quotes (single or double)
+- Booleans (bool): True or False values used for logical operations
+- Lists (list): Ordered, mutable collection of values enclosed in square brackets
+- Tuples (tuple): Ordered, immutable collection of values enclosed in parentheses
+- Sets (set): Unordered, mutable collection of unique values enclosed in curly braces
+- Dictionaries (dict): Collection of key-value pairs enclosed in curly braces with colons separating the keys and values.
+
+**Data types are important because they determine the type of operations we can perform on a variable, how it behaves in certain situations, and how it is stored in memory.**
+
