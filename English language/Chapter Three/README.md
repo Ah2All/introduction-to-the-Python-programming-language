@@ -122,7 +122,9 @@ name = "John"
 message = "Hello, " + name + "!"
 print(message) # Output: Hello, John!
 ```
+</br>
 ***
+</br>
 
 ## 💎 Python Data Types
 > In Python, a data type refers to the type of value that a variable holds. Python has several built-in data types including:
@@ -137,4 +139,6 @@ print(message) # Output: Hello, John!
 - Dictionaries (dict): Collection of key-value pairs enclosed in curly braces with colons separating the keys and values.
 
 **Data types are important because they determine the type of operations we can perform on a variable, how it behaves in certain situations, and how it is stored in memory.**
+
+#
 
