@@ -1,11 +1,15 @@
 ## 🔹The topics we discuss in this chapter:
 
 - [Concept of Variable](#concept-of-variable)
+
    - [How to define a variable in Python](#how-to-define-a-variable-in-python)
    - [Rules for Python variables](#%EF%B8%8F-rules-for-python-variables)
+   
 - Python Data Types
+
    - (string, integers, bool, float) 
    - Data Structures(List, Tuple, Dictionaries, set)
+   
 - Convert data types to each other
 
 </br>
