@@ -11,13 +11,13 @@
 اما با این حال تفاوت هایی بین این دو وجود دارد که در ادامه آن ها را برسی می‌کنیم
 
 ### **مفهوم IDE** =>
-- An Integrated Development Environment (IDE) is a software application that provides comprehensive facilities to computer programmers for software development. An IDE typically consists of a source code editor, build automation tools, and a debugger. It can also include features like version control integration, graphical user interface (GUI) builders, and many other tools that help simplify and automate the software development process.
+- محیط توسعه یکپارچه (IDE) یک نرم افزار کاربردی است که امکانات جامعی را برای برنامه نویسان کامپیوتر برای توسعه نرم افزار فراهم می کند. یک IDE معمولاً از یک ویرایشگر کد منبع، ابزارهای اتوماسیون ساخت و یک دیباگر تشکیل شده است. همچنین می‌تواند شامل ویژگی‌هایی مانند یکپارچه‌سازی کنترل نسخه، سازندگان رابط کاربری گرافیکی (GUI) و بسیاری از ابزارهای دیگر باشد که به ساده‌سازی و خودکارسازی فرآیند توسعه نرم‌افزار کمک می‌کنند.
 
-### **Concept Text Editor** =>
-- A text editor is a software application used for editing plain text files. Unlike an IDE, a text editor does not have any built-in features for compiling or debugging code. Text editors are used mainly by developers who prefer lightweight, customizable tools for writing code. Some popular text editors include Atom, Sublime Text, and Visual Studio Code.
+### **مفهوم Text Editor** =>
+- ویرایشگر متن نرم افزاری است که برای ویرایش فایل های متنی ساده استفاده می شود. برخلاف IDE، یک ویرایشگر متن هیچ ویژگی داخلی برای کامپایل یا اشکال زدایی کد ندارد. ویرایشگرهای متن عمدتاً توسط توسعه دهندگانی استفاده می شود که ابزارهای سبک وزن و قابل تنظیم را برای نوشتن کد ترجیح می دهند. برخی از ویرایشگرهای متن محبوب عبارتند از Atom، Sublime Text و Visual Studio Code.
 
 ---
-##### 🔹While both IDEs and text editors can be used for writing code, the main difference between them is that IDEs provide a more comprehensive set of tools designed specifically for software development, while text editors offer a more minimalistic approach with fewer built-in features. Ultimately, the choice between using an IDE or a text editor comes down to personal preference and the specific needs of the developer.
+##### 🔹در حالی که هر دو IDE و ویرایشگر متن را می توان برای نوشتن کد استفاده کرد، تفاوت اصلی بین آنها این است که IDE ها مجموعه جامع تری از ابزارها را ارائه می دهند که به طور خاص برای توسعه نرم افزار طراحی شده اند، در حالی که ویرایشگرهای متن رویکرد حداقلی تری را با ویژگی های داخلی کمتر ارائه می دهند. در نهایت، انتخاب بین استفاده از یک IDE یا یک ویرایشگر متن به اولویت شخصی و نیازهای خاص توسعه دهنده بستگی دارد.
 ---
 
 </br>
@@ -26,50 +26,50 @@
 
 </br>
 
-## 💢The difference between IDE and text editor
+## 💢 تفاوت بین IDE و ویرایشگر متن
 
-1. IDE (Integrated Development Environment) is an integrated development environment that includes tools such as coding, debugging, compiling, and testing. These tools are automatically synchronized with each other and help programmers quickly build complex programs.
+1. IDE (محیط توسعه یکپارچه) یک محیط توسعه یکپارچه است که شامل ابزارهایی مانند کدنویسی، اشکال زدایی، کامپایل و آزمایش است. این ابزارها به طور خودکار با یکدیگر همگام می شوند و به برنامه نویسان کمک می کنند تا به سرعت برنامه های پیچیده بسازند.
 
-2. Text Editor is a program used for editing and writing programming code. These tools typically only have text editing capabilities and do not have any other tools such as debuggers, compilers, and testers.
+2. Text Editor برنامه ای است که برای ویرایش و نوشتن کدهای برنامه نویسی استفاده می شود. این ابزارها معمولاً فقط دارای قابلیت ویرایش متن هستند و هیچ ابزار دیگری مانند دیباگرها، کامپایلرها و تسترها ندارند.
 
-3. IDEs are typically used for complex and large projects, while Text Editors are used for smaller and simpler projects.
+3. IDE ها معمولا برای پروژه های پیچیده و بزرگ استفاده می شوند، در حالی که ویرایشگرهای متن برای پروژه های کوچکتر و ساده تر استفاده می شوند.
 
-4. IDEs have the ability to detect code errors and help programmers run the program better and faster, while Text Editors do not have this capability.
+4. IDE ها توانایی تشخیص خطاهای کد را دارند و به برنامه نویسان کمک می کنند تا برنامه را بهتر و سریعتر اجرا کنند، در حالی که Text Editor ها این قابلیت را ندارند.
 
-5. IDEs are usually designed for specific programming languages such as Java, C++, and Python, while Text Editors can be used for all programming languages.
+5. IDE ها معمولا برای زبان های برنامه نویسی خاص مانند جاوا، سی پلاس پلاس و پایتون طراحی می شوند، در حالی که ویرایشگرهای متن را می توان برای همه زبان های برنامه نویسی استفاده کرد.
 
 ***
 
 </br>
 
-# 🐍 How to Install Python
-> In this article, we will teach you how to install Python on Windows. Unlike other operating systems such as Mac OS and Linux, the Python programming language is not installed by default on the Windows operating system. However, this does not mean that this programming language will not be useful for Windows users or that Windows users will not be able to program their own applications using this language.
+# 🐍 نحوه نصب پایتون
+> در این مقاله نحوه نصب پایتون در ویندوز را به شما آموزش می دهیم. زبان برنامه نویسی پایتون بر خلاف سایر سیستم عامل ها مانند سیستم عامل مک و لینوکس به طور پیش فرض روی سیستم عامل ویندوز نصب نمی شود. با این حال، این بدان معنا نیست که این زبان برنامه نویسی برای کاربران ویندوز مفید نخواهد بود یا کاربران ویندوز نمی توانند برنامه های کاربردی خود را با استفاده از این زبان برنامه ریزی کنند.
 
-## Step 1 — Downloading the Python Installer
-1. Go to the official Python download page for Windows.
+## مرحله 1 - دانلود نصب کننده پایتون
+1. به صفحه رسمی دانلود پایتون برای ویندوز بروید.
 
-2. Find a stable Python 3 release. This tutorial was tested with Python version 3.10.10.
+2. نسخه پایدار پایتون 3 را پیدا کنید. این آموزش با نسخه 3.10.10 پایتون تست شده است.
 
-3. Click the appropriate link for your system to download the executable file: Windows installer (64-bit) or Windows installer (32-bit).
+3. برای دانلود فایل اجرایی روی لینک مناسب برای سیستم خود کلیک کنید: Windows installer (64 بیتی) یا Windows installer (32 بیت).
 
 ![Alt text](../../src/1.png)
 
-## Step 2 — Running the Executable Installer
-1. After the installer is downloaded, double-click the .exe file, for example python-3.10.10-amd64.exe, to run the Python installer.
+## مرحله 2 - اجرای نصب کننده اجرایی
+1. پس از دانلود نصب کننده، روی فایل .exe، به عنوان مثال python-3.10.10-amd64.exe، دوبار کلیک کنید تا نصب کننده پایتون اجرا شود.
 
-2. Select the Install launcher for all users checkbox, which enables all users of the computer to access the Python launcher application.
+2. چک باکس Install launcher for all users را انتخاب کنید، که همه کاربران رایانه را قادر می سازد به برنامه راه اندازی پایتون دسترسی داشته باشند.
 
-3. Select the Add python.exe to PATH checkbox, which enables users to launch Python from the command line.
+3. چک باکس Add python.exe to PATH را انتخاب کنید که به کاربران امکان می دهد پایتون را از خط فرمان راه اندازی کنند.
 
 ![Alt text](../../src/2.png)
 
-4. If you’re just getting started with Python and you want to install it with default features as described in the dialog, then click Install Now and go to Step 4 - Verify the Python Installation. To install other optional and advanced features, click Customize installation and continue.
+4. اگر به تازگی با پایتون شروع کرده اید و می خواهید آن را با ویژگی های پیش فرض همانطور که در گفتگو توضیح داده شده است نصب کنید، روی Install Now کلیک کنید و به مرحله 4 بروید - تأیید نصب پایتون. برای نصب سایر ویژگی های اختیاری و پیشرفته، روی Customize install کلیک کرده و ادامه دهید.
 
-5. The Optional Features include common tools and resources for Python and you can install all of them, even if you don’t plan to use them.
+5. ویژگی های اختیاری شامل ابزارها و منابع رایج برای پایتون است و می توانید همه آنها را نصب کنید، حتی اگر قصد استفاده از آنها را ندارید.
 
 ![Alt text](../../src/3.png)
 
-**Select some or all of the following options:**
+**برخی یا همه گزینه های زیر را انتخاب کنید:**
 
 - Documentation: recommended
 - pip: recommended if you want to install other Python packages, such as NumPy or pandas
@@ -77,12 +77,12 @@
 - Python test suite: recommended for testing and learning
 - py launcher and for all users: recommended to enable users to launch Python from the command line
 
-6. Click Next.
-7. The Advanced Options dialog displays.
+6. روی Next کلیک کنید.
+7. گفتگوی گزینه های پیشرفته نمایش داده می شود.
 
 ![Alt text](../../src/4.png)
 
-**Select the options that suit your requirements:**
+**گزینه های متناسب با نیاز شما را انتخاب کنید:**
 
 - Install for all users: recommended if you’re not the only user on this computer
 - Associate files with Python: recommended, because this option associates all the Python file types with the launcher or editor
@@ -92,21 +92,21 @@
 - Download debugging symbols and Download debug binaries: recommended only if you plan to create C or C++ extensions
 - Make note of the Python installation directory in case you need to reference it later.
 
-8. Click Install to start the installation.
-9. After the installation is complete, a Setup was successful message displays.
+8. برای شروع نصب روی Install کلیک کنید.
+9. پس از اتمام نصب، پیام Setup was موفقیت آمیز نمایش داده می شود.
 
 ![Alt text](../../src/5.png)
 
-Step 3 — Verify the Python Installation
-You can verify whether the Python installation is successful either through the command line or through the Integrated Development Environment (IDLE) application, if you chose to install it.
+مرحله 3 - نصب پایتون را تأیید کنید
+اگر نصب پایتون را انتخاب کردید، می توانید از طریق خط فرمان یا از طریق برنامه محیط توسعه مجتمع (IDLE) موفقیت آمیز بودن نصب پایتون را تأیید کنید.
 
-Go to Start and enter cmd in the search bar. Click Command Prompt.
+به Start رفته و cmd را در نوار جستجو وارد کنید. روی Command Prompt کلیک کنید.
 
-Enter the following command in the command prompt:
+دستور زیر را در خط فرمان وارد کنید:
 ```
 python --version
 ```
-An example of the output is:
+نمونه ای از خروجی این است:
 ```
 Output
 Python 3.10.10
