@@ -411,11 +411,12 @@ Output :
 banana
 ```
 **⭕️ The first item has index 0.**
+
 **⭕️ Negative indexing means start from the end -1 refers to the last item, -2 refers to the second last item etc..**
 
 Range of Indexes: 
-You can specify a range of indexes by specifying where to start and where to end the range.
-When specifying a range, the return value will be a new list with the specified items.
+> You can specify a range of indexes by specifying where to start and where to end the range.
+
 
 Example :
 ```python:
