@@ -498,3 +498,140 @@ my_list = [3, 1, 4, 2, 5]
 my_list.sort()
 print(my_list) # Output: [1, 2, 3, 4, 5]
 ```
+
+#### 💢 Dictionaries
+Dictionaries are used to store data values in key:value pairs.
+A dictionary is a collection which is ordered*, changeable and do not allow duplicates.
+
+Example :
+```python:
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict)
+```
+Output :
+```python:
+{'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
+```
+
+🔶 Dictionary Items
+> Dictionary items are ordered, changeable, and does not allow duplicates.
+> Dictionary items are presented in key:value pairs, and can be referred to by using the key name.
+
+Example :
+```python:
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict["brand"])
+```
+Output :
+```python:
+Ford
+```
+
+**⭕️ Dictionaries are changeable, meaning that we can change, add or remove items after the dictionary has been created.**
+
+🔶 Duplicates Not Allowed
+> Dictionaries cannot have two items with the same key:
+
+Example :
+```python:
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964,
+  "year": 2020
+}
+print(thisdict)
+```
+Output :
+```python:
+{'brand': 'Ford', 'model': 'Mustang', 'year': 2020}
+```
+
+🔶 The dict() Constructor
+> It is also possible to use the dict() constructor to make a dictionary.
+
+Example :
+```python:
+thisdict = dict(name = "John", age = 36, country = "Norway")
+print(thisdict)
+```
+Output :
+```python:
+{'name': 'John', 'age': 36, 'country': 'Norway'}
+```
+
+🔶 Change Values
+> You can change the value of a specific item by referring to its key name:
+
+Example :
+```python:
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+thisdict["year"] = 2018
+```
+Output :
+```python:
+{'brand': 'Ford', 'model': 'Mustang', 'year': 2018}
+```
+
+🔶 Dictionary Methods
+
+Example :
+```python:
+# clear(): clear all dictionary items
+d = {1: 'red', 2: 'blue', 3: 'green'}
+d.clear()
+print(d)   # Output: {}
+
+
+#copy(): Copy a dictionary
+d = {1: 'red', 2: 'blue', 3: 'green'}
+d1 = d.copy()
+print(d1)   # Output: {1: 'red', 2: 'blue', 3: 'green'}
+
+
+#get(): Gets the value corresponding to a key, returning the default value if the key does not exist.
+d = {1: 'red', 2: 'blue', 3: 'green'}
+print(d.get(1))    # Output: 'red'
+print(d.get(4, 'No color'))  # Output: 'No color'
+
+
+#items(): return all items of the dictionary
+d = {1: 'red', 2: 'blue', 3: 'green'}
+print(d.items())    # Output: dict_items([(1, 'red'), (2, 'blue'), (3, 'green')])
+
+
+#keys(): return all keys of the dictionary
+d = {1: 'red', 2: 'blue', 3: 'green'}
+print(d.keys())    # Output: dict_keys([1, 2, 3])
+
+
+#values(): return all dictionary values
+d = {1: 'red', 2: 'blue', 3: 'green'}
+print(d.values())    # Output: dict_values(['red', 'blue', 'green'])
+
+
+#pop(): remove an item from the dictionary using the corresponding key
+d = {1: 'red', 2: 'blue', 3: 'green'}
+d.pop(2)
+print(d)    # Output: {1: 'red', 3: 'green'}
+
+
+#update(): update the dictionary by adding another dictionary
+d = {1: 'red', 2: 'blue', 3: 'green'}
+d1 = {4: 'yellow'}
+d.update(d1)
+print(d)    # Output: {1: 'red', 2: 'blue', 3: 'green', 4: 'yellow'}
+```
+
