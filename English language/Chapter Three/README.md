@@ -261,3 +261,168 @@ Alireza Allahyarian
 
 #
 
+### 📌 Python Numbers
+There are three numeric types in Python:
+
+- int
+- float
+- complex
+
+Example :
+```python:
+x = 1    # int
+y = 2.8  # float
+z = 1j   # complex
+```
+#### 💢 Integer
+Int, or integer, is a whole number, positive or negative, without decimals, of unlimited length.
+
+Example :
+```python:
+x = 1
+y = 35656222554887711
+z = -3255522
+
+print(type(x))
+print(type(y))
+print(type(z))
+```
+
+Output :
+```python:
+<class 'int'>
+<class 'int'>
+<class 'int'>
+```
+
+▫️ A slightly more practical example:
+```python:
+# Define a value of type int and assign a value to it
+age = 30
+print(age)
+
+# Perform arithmetic operations using int changes
+year_born = 2023 - age
+print("you in the year", year_born, "you are born")
+```
+Output :
+```python:
+you in the year 1,993 you are born
+```
+
+#### 💢 Float
+Float, or "floating point number" is a number, positive or negative, containing one or more decimals.
+
+Example :
+```python:
+x = 1.10
+y = 1.0
+z = -35.59
+
+print(type(x))
+print(type(y))
+print(type(z))
+```
+
+Output :
+```python:
+<class 'float'>
+<class 'float'>
+<class 'float'>
+```
+
+#### 💢 Complex
+Complex numbers are written with a "j" as the imaginary part:
+
+Example :
+```python:
+x = 3+5j
+y = 5j
+z = -5j
+
+print(type(x))
+print(type(y))
+print(type(z))
+```
+
+Output :
+```python:
+<class 'complex'>
+<class 'complex'>
+<class 'complex'>
+```
+
+#
+
+### 📌 Python Booleans
+Booleans represent one of two values: True or False.
+
+##### 🔹Boolean Values
+In programming you often need to know if an expression is True or False.
+
+You can evaluate any expression in Python, and get one of two answers, True or False.
+
+When you compare two values, the expression is evaluated and Python returns the Boolean answer:
+
+Example :
+```python:
+print(10 > 9)
+print(10 == 9)
+print(10 < 9)
+```
+
+Output :
+```python:
+True
+False
+False
+```
+
+#
+
+### 📌 Data Structures(List, Tuple, Dictionaries, set)
+
+#### 💢 Lists
+Lists are used to store multiple items in a single variable.
+
+Lists are one of 4 built-in data types in Python used to store collections of data, the other 3 are Tuple, Set, and Dictionary, all with different qualities and usage.
+
+Lists are created using square brackets:
+
+Example :
+```python:
+thislist = ["apple", "banana", "cherry"]
+print(thislist)
+```
+
+Output :
+```python:
+['apple', 'banana', 'cherry']
+```
+
+Access Items:
+Example :
+```python:
+thislist = ["apple", "banana", "cherry"]
+print(thislist[1]))
+```
+Output :
+```python:
+banana
+```
+**⭕️ The first item has index 0.**
+**⭕️ Negative indexing means start from the end -1 refers to the last item, -2 refers to the second last item etc..**
+
+Range of Indexes: 
+You can specify a range of indexes by specifying where to start and where to end the range.
+When specifying a range, the return value will be a new list with the specified items.
+
+Example :
+```python:
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(thislist[2:5])
+```
+Output :
+```python:
+['cherry', 'orange', 'kiwi']
+```
