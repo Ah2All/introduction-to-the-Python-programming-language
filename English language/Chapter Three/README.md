@@ -427,3 +427,74 @@ Output :
 ```python:
 ['cherry', 'orange', 'kiwi']
 ```
+
+🔶 Change List Items: 
+> To change the value of a specific item, refer to the index number
+
+Example :
+```python:
+thislist = ["apple", "banana", "cherry"]
+thislist[1] = "blackcurrant"
+print(thislist)
+```
+Output :
+```python:
+['apple', 'blackcurrant', 'cherry']
+```
+
+🔶 Change a Range of Item Values
+> To change the value of items within a specific range, define a list with the new values, and refer to the range of index numbers where you want to insert the new values
+
+Example :
+```python:
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
+thislist[1:3] = ["blackcurrant", "watermelon"]
+print(thislist)
+```
+Output :
+```python:
+['apple', 'blackcurrant', 'watermelon', 'orange', 'kiwi', 'mango']
+```
+
+🔶 Insert Items
+> To insert a new list item, without replacing any of the existing values, we can use the insert() method.
+
+Example :
+```python:
+thislist = ["apple", "banana", "cherry"]
+thislist.insert(2, "watermelon")
+print(thislist)
+```
+Output :
+```python:
+['apple', 'banana', 'watermelon', 'cherry']
+```
+**⭕️ As a result of the example above, the list will now contain 4 items**
+
+🔶 List Methods
+```python:
+my_list = [ 1 , 2 , 3 ] #append
+my_list.append(4)
+print(my_list) # Output: [1, 2, 3, 4]
+
+my_list = [1, 2, 3]
+my_list.extend([4, 5])
+print(my_list) # Output: [1, 2, 3, 4, 5]
+
+my_list = [1, 2, 3]
+my_list.insert(1, 4)
+print(my_list) # Output: [1, 4, 2, 3]
+
+my_list = [1, 2, 3]
+my_list.remove(2)
+print(my_list) # output: [1, 3]
+
+my_list = [1, 2, 3]
+popped = my_list.pop()
+print(popped) # Output: 3
+print(my_list) # output: [1, 2]
+
+my_list = [3, 1, 4, 2, 5]
+my_list.sort()
+print(my_list) # Output: [1, 2, 3, 4, 5]
+```
