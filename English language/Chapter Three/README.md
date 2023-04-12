@@ -7,10 +7,10 @@
    
 - [Python Data Types](#-python-data-types)
 
-   - ([string](#-python-strings), integers, bool, float) 
-   - Data Structures(List, Tuple, Dictionaries, set)
+   - ([string](#-python-strings), [integers](#-python-numbers), [bool](#-python-booleans), [float](#-python-numbers)) 
+   - Data Structures([List](#-lists), [Tuple](#-tuples), [Dictionaries](#-dictionaries), [set](#-set))
    
-- Convert data types to each other
+- [Convert data types to each other]()
 
 </br>
 
@@ -840,3 +840,12 @@ print(x) #output = 3
 
 ***
 
+## 💎Convert data types to each other
+Sometimes, you may need to perform conversions between the built-in types. To convert between types, you simply use the type name as a function.
+
+#### 🔶 Function & Description
+
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
