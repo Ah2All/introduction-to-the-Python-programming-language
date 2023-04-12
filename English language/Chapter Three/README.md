@@ -635,3 +635,208 @@ d.update(d1)
 print(d)    # Output: {1: 'red', 2: 'blue', 3: 'green', 4: 'yellow'}
 ```
 
+#### 💢 Set
+Sets are used to store multiple items in a single variable.
+Set is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Tuple, and Dictionary, all with different qualities and usage.
+
+**⭕️ Set items are unchangeable, but you can remove items and add new items**
+
+Example :
+```python:
+thisset = {"apple", "banana", "cherry"}
+print(thisset)
+```
+Output :
+```python:
+{'banana', 'cherry', 'apple'}
+```
+
+- Set items are unordered, unchangeable, and do not allow duplicate values.
+- Unordered means that the items in a set do not have a defined order.
+- Set items can appear in a different order every time you use them, and cannot be referred to by index or key.
+
+🔶 Access Set Items
+> You cannot access items in a set by referring to an index or a key.
+
+Example :
+```python:
+thisset = {"apple", "banana", "cherry"}
+
+for x in thisset:
+  print(x)
+```
+Output :
+```python:
+banana
+cherry
+apple
+```
+
+Example :
+```python:
+thisset = {"apple", "banana", "cherry"}
+print("banana" in thisset)
+```
+Output :
+```python:
+True
+```
+
+🔶 The set() Constructor
+> It is also possible to use the set() constructor to make a set.
+
+Example :
+```python:
+thisset = set(("apple", "banana", "cherry")) # note the double round-brackets
+print(thisset)
+```
+Output :
+```python:
+{'banana', 'apple', 'cherry'}
+```
+
+🔶 Set Methods : 
+
+Example :
+```python:
+# Union of two sets
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+print(set1.union(set2)) # Output: {1, 2, 3, 4, 5}
+
+# Intersection of two sets
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+print(set1.intersection(set2)) # Output: {3}
+
+# Difference of two sets
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+print(set1.difference(set2)) # Output: {1, 2}
+```
+
+**⭕️[Set Methods](https://www.w3schools.com/python/python_sets_methods.asp)⭕️**
+
+
+#### 💢 Tuples
+Tuples are used to store multiple items in a single variable.
+Tuple is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Set, and Dictionary, all with different qualities and usage.
+A tuple is a collection which is ordered and unchangeable.
+
+Example :
+```python:
+thistuple = ("apple", "banana", "cherry")
+print(thistuple)
+```
+Output :
+```python:
+('apple', 'banana', 'cherry')
+```
+
+🔶 Ordered
+> When we say that tuples are ordered, it means that the items have a defined order, and that order will not change.
+
+🔶 Unchangeable
+> Tuples are unchangeable, meaning that we cannot change, add or remove items after the tuple has been created.
+
+🔶 Allow Duplicates
+> Since tuples are indexed, they can have items with the same value:
+
+Example :
+```python:
+thistuple = ("apple", "banana", "cherry", "apple", "cherry")
+print(thistuple)
+```
+Output :
+```python:
+('apple', 'banana', 'cherry', 'apple', 'cherry')
+```
+
+🔶 The tuple() Constructor
+> It is also possible to use the tuple() constructor to make a tuple.
+
+Example :
+```python:
+thistuple = tuple(("apple", "banana", "cherry")) # note the double round-brackets
+print(thistuple)
+```
+Output :
+```python:
+('apple', 'banana', 'cherry')
+```
+
+🔶 Access Tuple Items
+> In tuples, access to items is exactly like lists 
+
+🔶 Update Tuples
+> Once a tuple is created, you cannot change its values. Tuples are unchangeable, or immutable as it also is called.
+> But there is a workaround. You can convert the tuple into a list, change the list, and convert the list back into a tuple.
+
+Example :
+```python:
+x = ("apple", "banana", "cherry")
+y = list(x)
+y[1] = "kiwi"
+x = tuple(y)
+
+print(x)
+```
+Output :
+```python:
+("apple", "kiwi", "cherry")
+```
+
+**⭕️If you want to perform operations on tuples You can convert the tuple to a list, modify the list, and convert the list back to a tuple. ⭕️**
+
+🔶 Join Tuples
+> To join two or more tuples you can use the + operator:
+
+Example :
+```python:
+tuple1 = ("a", "b" , "c")
+tuple2 = (1, 2, 3)
+
+tuple3 = tuple1 + tuple2
+print(tuple3)
+```
+Output :
+```python:
+('a', 'b', 'c', 1, 2, 3)
+```
+
+🔶 Multiply Tuples
+> If you want to multiply the content of a tuple a given number of times, you can use the * operator:
+
+Example :
+```python:
+fruits = ("apple", "banana", "cherry")
+mytuple = fruits * 2
+
+print(mytuple)
+```
+Output :
+```python:
+('apple', 'banana', 'cherry', 'apple', 'banana', 'cherry')
+```
+
+🔶 Tuple Methods
+> Python has two built-in methods that you can use on tuples.
+
+Example :
+```python:
+thistuple = (1, 3, 7, 8, 7, 5, 4, 6, 8, 5)
+
+x = thistuple.count(5)
+
+print(x) #output = 2
+
+
+thistuple = (1, 3, 7, 8, 7, 5, 4, 6, 8, 5)
+
+x = thistuple.index(8)
+
+print(x) #output = 3
+```
+
+***
+
