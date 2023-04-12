@@ -845,7 +845,13 @@ Sometimes, you may need to perform conversions between the built-in types. To co
 
 #### 🔶 Function & Description
 
-| Syntax | Description |
+| Function | Description |
 | ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
+| int(x) | Converts x to an integer. base specifies the base if x is a string. |
+| float(x) | Converts x to a floating-point number. |
+| complex(x) | Creates a complex number. |
+| str(x) | Converts object x to a string representation. |
+| tuple(s) | Converts s to a tuple. |
+| list(s) | Converts s to a list. |
+| set(s) | Converts s to a set. |
+| dict(d) | Creates a dictionary. d must be a sequence of (key,value) tuples. |
