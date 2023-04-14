@@ -855,3 +855,45 @@ Sometimes, you may need to perform conversions between the built-in types. To co
 | list(s) | Converts s to a list. |
 | set(s) | Converts s to a set. |
 | dict(d) | Creates a dictionary. d must be a sequence of (key,value) tuples. |
+
+
+Example :
+```python:
+# Converting a string to an integer:
+x = "123"
+y = int(x)
+print(y)  # Output: 123
+
+Converting a string to a float:
+x = "3.14"
+y = float(x)
+print(y)  # Output: 3.14
+Converting an integer to a string:
+x = 123
+y = str(x)
+print(y)  # Output: "123"
+Converting a float to a string:
+x = 3.14
+y = str(x)
+print(y)  # Output: "3.14"
+Converting a boolean to an integer:
+x = True
+y = int(x)
+print(y)  # Output: 1
+Converting an integer to a boolean:
+x = 0
+y = bool(x)
+print(y)  # Output: False
+Converting a string to a boolean:
+x = "True"
+y = bool(x)
+print(y)  # Output: True
+Converting a list to a tuple:
+x = [1, 2, 3]
+y = tuple(x)
+print(y)  # Output: (1, 2, 3)
+Converting a tuple to a list:
+x = (1, 2, 3)
+y = list(x)
+print(y)  # Output: [1, 2, 3]
+```
