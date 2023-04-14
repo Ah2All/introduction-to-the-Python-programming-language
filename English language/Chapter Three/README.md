@@ -904,3 +904,7 @@ x = (1, 2, 3)
 y = list(x)
 print(y)  # Output: [1, 2, 3]
 ```
+
+### 🖊 the writer : Alireza Allahyarian - [Website](http://microhex.info/) - [linkedin](https://www.linkedin.com/in/alireza-allahyarian-658658258/)- [GitHub](https://github.com/graymicro) - [Tlegeram](https://t.me/graycubeteam) 
+
+#### **[♦️license by gray cube team♦️](graycubeteam.github.io)**
