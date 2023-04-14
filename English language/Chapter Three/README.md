@@ -8,9 +8,9 @@
 - [Python Data Types](#-python-data-types)
 
    - ([string](#-python-strings), [integers](#-python-numbers), [bool](#-python-booleans), [float](#-python-numbers)) 
-   - Data Structures([List](#-lists), [Tuple](#-tuples), [Dictionaries](#-dictionaries), [set](#-set))
+   - Data Structures ([List](#-lists), [Tuple](#-tuples), [Dictionaries](#-dictionaries), [set](#-set))
    
-- [Convert data types to each other]()
+- [Convert data types to each other](#convert-data-types-to-each-other)
 
 </br>
 
