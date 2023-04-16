@@ -49,7 +49,7 @@ This repository is written in [Persian](https://github.com/graymicro/introductio
   -  🌀 Concept of IDE & text editor
   -  🌀 Install python 
 
-- Chapter Three
+- Chapter Three [(English language)](https://github.com/graymicro/introduction-to-the-Python-programming-language/tree/master/English%20language/Chapter%20Three)  [(Persian language)](https://github.com/graymicro/introduction-to-the-Python-programming-language/tree/master/Persian%20language/Chapter%20Three)
 
   -  🌀 Concept of Variable 
   -  🌀 Python Data Types
