@@ -80,8 +80,6 @@ This repository is written in [Persian](https://github.com/graymicro/introductio
 - Chapter Six
 
   - 🌀 Libraries in Python (The concept of script, module, package, library and framework)
-       - create script
-  - 🌀 working with library 
 
 - Chapter Seven 
   - ⭕️ coming soon...
