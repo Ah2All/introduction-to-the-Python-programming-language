@@ -95,3 +95,41 @@ print(x > 5 and y < 10) # True
 print(x > 5 or y > 10) # True
 print(not(x == y)) # True
 ```
+
+*** 
+
+### 💢 membership operators
+> Membership operators are used to test if a sequence is presented in an object
+
+```python:
+x = ["apple", "banana"]
+print("banana" in x) # True
+print("cherry" not in x) # True
+```
+
+*** 
+
+### 💢 Identity operators
+> Identity operators are used to compare the objects, not if they are equal, but if they are actually the same object, with the same memory location
+
+```python:
+# is a comparison with the operator
+a = [1, 2, 3]
+b = a
+print(b is a)   # Output: True
+
+c = [1, 2, 3]
+print(c is a)   # Output: False
+
+# compares the absence with the not operator
+d = "Hello"
+e = "World"
+print(d is not e)   # Output: True
+
+f = "Hello"
+print(d is not f)   # Output: False
+```
+
+### 🖊 the writer : Alireza Allahyarian - [Website](http://microhex.info/) - [linkedin](https://www.linkedin.com/in/alireza-allahyarian-658658258/)- [GitHub](https://github.com/graymicro) - [Tlegeram](https://t.me/graycubeteam) 
+
+#### **[♦️license by gray cube team♦️](graycubeteam.github.io)**
