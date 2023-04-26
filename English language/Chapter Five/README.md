@@ -1,8 +1,8 @@
 ## 🔹The topics we discuss in this chapter:
 
-- [Conditional commands (if, else, elif)](#-arithmetic-operators)
-- [Loops in Python (for, while)](#-comparison-operators)
-- [Functions](#-assignment-operators)
+- [Conditional commands (if, else, elif)](#concept-of-conditional-commands)
+- [Loops in Python (for, while)](#concept-of-loops-in-python)
+- [Functions](#concept-of-functions)
 
 ***
 
@@ -36,24 +36,6 @@ b is greater than a
 
 </br> 
 
-### 💢 Elif :
-> The elif keyword is Python's way of saying "if the previous conditions were not true, then try this condition"
-
-Example:
-```python:
-a = 33
-b = 33
-if b > a:
-  print("b is greater than a")
-elif a == b:
-  print("a and b are equal")
-```
-Output :
-```python:
-a and b are equal
-```
-
-</br> 
 
 ### 💢 Elif :
 > The elif keyword is Python's way of saying "if the previous conditions were not true, then try this condition"
