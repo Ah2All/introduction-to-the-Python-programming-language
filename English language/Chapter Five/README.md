@@ -238,4 +238,26 @@ i is no longer less than 6
 ***
 
 ## 💎Concept of Functions
-> Conditional statements in Python allow you to specify code that should be executed according to certain conditions. A conditional statement may be a single condition or a combination of several conditions.
+> A function is a block of code which only runs when it is called. You can pass data, known as parameters, into a function. A function can return data as a result.
+
+Example:
+```python:
+def my_function():
+  print("Hello from a function")
+```
+#### 🔶 Calling a Function
+Example:
+```python:
+def my_function():
+  print("Hello from a function")
+
+my_function()
+```
+Output :
+```python:
+Hello from a function
+```
+
+### 🖊 the writer : Alireza Allahyarian - [Website](http://microhex.info/) - [linkedin](https://www.linkedin.com/in/alireza-allahyarian-658658258/)- [GitHub](https://github.com/graymicro) - [Tlegeram](https://t.me/graycubeteam) 
+
+#### **[♦️license by gray cube team♦️](graycubeteam.github.io)**
