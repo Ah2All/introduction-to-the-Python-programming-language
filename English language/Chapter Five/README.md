@@ -173,7 +173,7 @@ Output :
 Finally finished!
 ```
 
-### 💢 For Loops :
+### 💢 The while Loop :
 > While loop is used when we want to repeat a statement while the given condition is true. The loop continues till the condition becomes false.
 
 
@@ -218,18 +218,24 @@ Output :
 
 Example:
 ```python:
-for x in range(6):
-  print(x)
+i = 1
+while i < 6:
+  print(i)
+  i += 1
 else:
-  print("Finally finished!")
+  print("i is no longer less than 6")
 ```
 Output :
 ```python:
-0
 1
 2
 3
 4
 5
-Finally finished!
+i is no longer less than 6
 ```
+
+***
+
+## 💎Concept of Functions
+> Conditional statements in Python allow you to specify code that should be executed according to certain conditions. A conditional statement may be a single condition or a combination of several conditions.
