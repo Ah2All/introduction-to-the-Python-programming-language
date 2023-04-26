@@ -1,11 +1,11 @@
 ## 🔹The topics we discuss in this chapter:
 
-- Arithmetic operators
-- comparison operators
-- Assignment operators
-- logical operators
-- membership operators
-- Identity operators
+- [Arithmetic operators](#-arithmetic-operators)
+- [comparison operators](#-comparison-operators)
+- [Assignment operators](#-assignment-operators)
+- [logical operators](#-logical-operators)
+- [membership operators](#-membership-operators)
+- [Identity operators](#-identity-operators)
 
 ***
 
