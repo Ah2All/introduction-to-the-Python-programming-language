@@ -96,4 +96,140 @@ a is greater than b
 ***
 
 ## 💎Concept of Loops in Python
-> Conditional statements in Python allow you to specify code that should be executed according to ce
+> Loops in Python are one of the basic and powerful tools used to iterate over a block of code repeatedly based on certain conditions or sequence of data. There are two types of loops in Python
+
+### 💢 For Loops :
+> For loop is used when we want to iterate over a sequence (list, tuple, string, or any other iterable object) and execute the block of statements or code for each element of the sequence. The loop continues till the last element in the sequence is reached.
+
+With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc.
+
+Example:
+```python:
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+```
+Output :
+```python:
+apple
+banana
+cherry
+```
+
+#### 🔶 The break Statement
+> With the break statement we can stop the loop before it has looped through all the items:
+
+Example:
+```python:
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+  if x == "banana":
+    break
+```
+Output :
+```python:
+apple
+banana
+```
+
+#### 🔶 The range() Function
+> To loop through a set of code a specified number of times, we can use the range() function,
+The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and ends at a specified number.
+Example:
+
+```python:
+for x in range(6):
+  print(x)
+```
+Output :
+```python:
+0
+1
+2
+3
+4
+5
+```
+
+#### 🔶 Else in For Loop
+> The else keyword in a for loop specifies a block of code to be executed when the loop is finished:
+
+Example:
+```python:
+for x in range(6):
+  print(x)
+else:
+  print("Finally finished!")
+```
+Output :
+```python:
+0
+1
+2
+3
+4
+5
+Finally finished!
+```
+
+### 💢 For Loops :
+> While loop is used when we want to repeat a statement while the given condition is true. The loop continues till the condition becomes false.
+
+
+Example:
+```python:
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+```
+Output :
+```python:
+1
+2
+3
+4
+5
+```
+
+#### 🔶 The break Statement
+> With the break statement we can stop the loop even if the while condition is true:
+
+Example:
+```python:
+i = 1
+while i < 6:
+  print(i)
+  if i == 3:
+    break
+  i += 1
+```
+Output :
+```python:
+1
+2
+3
+```
+
+
+#### 🔶 Else in For Loop
+> With the else statement we can run a block of code once when the condition no longer is true:
+
+Example:
+```python:
+for x in range(6):
+  print(x)
+else:
+  print("Finally finished!")
+```
+Output :
+```python:
+0
+1
+2
+3
+4
+5
+Finally finished!
+```
