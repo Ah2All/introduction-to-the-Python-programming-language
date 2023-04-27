@@ -12,12 +12,8 @@ A Python script is a file containing Python code, typically saved with a .py ext
 
 ## 💎The concept of module
 
-#### 🔷 In Python, a module is a file containing Python definitions and statements, which can be used in other Python programs or modules. A module can be thought of as a library of reusable code that can be imported and used in other Python scripts.
-A module in Python is typically saved with a .py extension and can include functions, classes, and variables. These definitions can be accessed by importing the module into another Python script using the "import" statement.
+#### 🔷 In Python, Modules are simply files with the “. py” extension containing Python code that can be imported inside another Python Program. In simple terms, we can consider a module to be the same as a code library or a file that contains a set of functions that you want to include in your application
 
-```python:
-import math_functions
-```
 
 </br>
 
