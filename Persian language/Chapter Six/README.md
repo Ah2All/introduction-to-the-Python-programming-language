@@ -5,39 +5,33 @@
 
 ## 💎 مغهوم script در پایتون 
 
-#### 🔷 In Python, a script is a program written in the Python programming language that can be executed from a command line interface or from an integrated development environment (IDE).
-A Python script is a file containing Python code, typically saved with a .py extension. When the script is executed, the Python interpreter reads the code and executes it line by line. Python scripts can be used for a wide range of tasks, such as automating repetitive tasks, processing data, or building complex applications.
+#### 🔷 در پایتون، اسکریپت برنامه ای است که به زبان برنامه نویسی پایتون نوشته شده است که می تواند از یک رابط خط فرمان یا از یک محیط توسعه یکپارچه (IDE) اجرا شود.
+اسکریپت پایتون یک فایل حاوی کد پایتون است که معمولاً با پسوند py. ذخیره می شود. هنگامی که اسکریپت اجرا می شود، مفسر پایتون کد را می خواند و آن را خط به خط اجرا می کند. از اسکریپت های پایتون می توان برای طیف وسیعی از وظایف، مانند خودکارسازی وظایف تکراری، پردازش داده ها یا ساخت برنامه های پیچیده استفاده کرد.
 
 </br>
 
-## 💎The concept of module
+## 💎مفهوم module در پایتون 
 
-#### 🔷 In Python, a module is a file containing Python definitions and statements, which can be used in other Python programs or modules. A module can be thought of as a library of reusable code that can be imported and used in other Python scripts.
-A module in Python is typically saved with a .py extension and can include functions, classes, and variables. These definitions can be accessed by importing the module into another Python script using the "import" statement.
-
-```python:
-import math_functions
-```
+#### 🔷 در پایتون، ماژول ها به سادگی فایل هایی با “. پسوند py حاوی کد پایتون است که می تواند در برنامه پایتون دیگری وارد شود. به زبان ساده، ما می‌توانیم یک ماژول را همان کتابخانه کد یا فایلی در نظر بگیریم که شامل مجموعه‌ای از توابع است که می‌خواهید در برنامه خود قرار دهید.
 
 </br>
 
-## 💎The concept of package
+## 💎مغهوم package در پایتون 
 
-#### 🔷 In very simple language, a package in Python (Python Package) is a number of modules that are placed in a folder! Usually, the modules that are included in a package have a similar purpose. For example, the access level management part (authentication) of a program or user management can be a package.
+#### 🔷 به زبان بسیار ساده، یک بسته در پایتون (Paython Package) تعدادی ماژول است که در یک پوشه قرار می گیرد! معمولا ماژول هایی که در یک پکیج قرار می گیرند هدفی مشابه دارند. به عنوان مثال، بخش مدیریت سطح دسترسی (احراز هویت) یک برنامه یا مدیریت کاربر می تواند یک بسته باشد.
+</br>
+
+## 💎مفهوم library در پایتون 
+
+#### 🔷 در برنامه نویسی، کتابخانه مجموعه ای از کدهای از پیش نوشته شده است که می تواند توسط برنامه های دیگر مورد استفاده مجدد قرار گیرد. یک کتابخانه معمولاً شامل مجموعه‌ای از توابع، روال‌ها، کلاس‌ها یا ماژول‌ها است که می‌تواند توسط یک برنامه کاربردی برای انجام وظایف خاص، مانند ورودی/خروجی فایل، ارتباطات شبکه، دستکاری داده‌ها و غیره فراخوانی شود.
+در پایتون، یک کتابخانه معمولاً به عنوان یک ماژول یا مجموعه ای از ماژول ها بسته بندی می شود که می توانند وارد و در یک برنامه استفاده شوند.
 
 </br>
 
-## 💎The concept of library
+## 💎 مفهوم framework در پایتون 
 
-#### 🔷 In programming, a library is a collection of pre-written code that can be reused by other programs. A library typically contains a set of functions, routines, classes, or modules that can be called by an application to perform specific tasks, such as file I/O, network communication, data manipulation, and more.
-In Python, a library is typically packaged as a module or a set of modules that can be imported and used in a program.
-
-</br>
-
-## 💎The concept of framework
-
-#### 🔷 In Python, a framework is a collection of modules, libraries, and tools designed to help developers build applications more efficiently. A framework provides a set of conventions, best practices, and reusable code that can be used to simplify the development process and speed up the time-to-market of the application.
-Frameworks typically provide a foundation for building web applications, desktop applications, games, or other types of software. Some popular Python frameworks include Django, Flask, Pyramid, and CherryPy, among others. These frameworks provide a set of tools and libraries that help developers handle common tasks such as routing, database access, templating, security, and more.
+#### 🔷 در پایتون، چارچوب مجموعه‌ای از ماژول‌ها، کتابخانه‌ها و ابزارهایی است که برای کمک به توسعه‌دهندگان در ساخت برنامه‌های کاربردی کارآمدتر طراحی شده‌اند. یک چارچوب مجموعه‌ای از قراردادها، بهترین شیوه‌ها و کدهای قابل استفاده مجدد را ارائه می‌کند که می‌توانند برای ساده‌سازی فرآیند توسعه و سرعت بخشیدن به زمان عرضه برنامه به بازار استفاده شوند.
+فریم‌ورک‌ها معمولاً پایه‌ای برای ساخت برنامه‌های کاربردی وب، برنامه‌های دسکتاپ، بازی‌ها یا سایر انواع نرم‌افزار فراهم می‌کنند. برخی از فریمورک‌های محبوب پایتون عبارتند از جنگو، فلاسک، پیرامید و چری پای و غیره. این چارچوب‌ها مجموعه‌ای از ابزارها و کتابخانه‌ها را ارائه می‌کنند که به توسعه‌دهندگان کمک می‌کنند تا کارهای رایجی مانند مسیریابی، دسترسی به پایگاه داده، قالب‌بندی، امنیت و غیره را انجام دهند.
 
 ***
 
