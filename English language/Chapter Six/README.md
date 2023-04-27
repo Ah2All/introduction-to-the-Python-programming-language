@@ -1,4 +1,4 @@
-##🔹The topics we discuss in this chapter:
+## 🔹The topics we discuss in this chapter:
 
 - Libraries in Python (The concept of script, module, package, library and framework)
 
