@@ -86,7 +86,9 @@ This repository is written in [Persian](https://github.com/graymicro/introductio
 
 - Chapter Seven [(English language)](https://github.com/graymicro/introduction-to-the-Python-programming-language/tree/master/English%20language/Chapter%20One)  [(Persian language)](https://github.com/graymicro/introduction-to-the-Python-programming-language/tree/master/Persian%20language/Chapter%20One)
 
-  - ⭕️ coming soon...
+  - Chapter Seven 
+    - 🌀 What Is Object-Oriented Programming in Python?
+    - 🌀 Class in Python
 
 ***
 
