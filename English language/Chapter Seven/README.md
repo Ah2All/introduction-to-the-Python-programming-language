@@ -6,10 +6,10 @@
 
 ## 💎What Is Object-Oriented Programming in Python?
 
-#### 💢 Concept Object-Oriented Programming
+### 💢 Concept Object-Oriented Programming
 Object-oriented programming is a programming paradigm in which programs are designed and implemented as collections of objects. Each object has specific properties and behaviors that are defined as methods. By using object-oriented programming, you can design programs that are modular and extensible. In other words, by using objects and their relationships, you can design programs that are easily adaptable and changeable in the future.For example, suppose you want to design a program for managing a library. In object-oriented programming, a library object is defined with properties such as a name, address, opening and closing times, and behaviors such as adding books, deleting books, and searching for books. Similarly, a book object is defined with properties such as a name, author, and publication year, and behaviors such as displaying book information and editing book information. Then, using these objects, you can design your library program.
 
-#### 💢 Object-Oriented Programming in python
+### 💢 Object-Oriented Programming in python
 Object-oriented programming is a programming paradigm that provides a means of structuring programs so that properties and behaviors are bundled into individual objects.
 
 For instance, an object could represent a person with properties like a name, age, and address and behaviors such as walking, talking, breathing, and running. Or it could represent an email with properties like a recipient list, subject, and body and behaviors like adding attachments and sending.
