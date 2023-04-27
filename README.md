@@ -98,12 +98,28 @@ This repository is written in [Persian](https://github.com/graymicro/introductio
 - Be sure to send this repository to your friends who are interested in this area
 - Follow the gray cube team on other platforms
 
+***
+### 📚 Resources used 
+
+- https://realpython.com/
+- https://www.w3schools.com/
+- https://www.python.org/
+
+
+***
+
 <h3 align="center">💣 حمایت از این ریپازیتوری 💣</h3>
 <br />
 
 - با دادن یک ستاره(⭐️) به این ریپازیتوری باعث بیشتر دیده تر شدن شدید
 - حتما برای دوستانتون که علاقه به این حوضه دارند این ریپازیتوری رو ارسال کنید 
 - تیم مکعب خاکستری رو در بقیه [پلتفرم ها](https://graycubeteam.github.io/) دنبال کنید 
+
+***
+### 📚 منابع استفاده شده 
+- https://realpython.com/
+- https://www.w3schools.com/
+- https://www.python.org/
 
 ***
 ### 🖊 the writer : Alireza Allahyarian - [Website](http://microhex.info/) - [linkedin](https://www.linkedin.com/in/alireza-allahyarian-658658258/)- [GitHub](https://github.com/graymicro) - [Tlegeram](https://t.me/graycubeteam) 
