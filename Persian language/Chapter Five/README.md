@@ -1,26 +1,26 @@
 ## 🔹موضوعاتی که در این فصل بحث می کنیم:
 
-- [Conditional commands (if, else, elif)](#concept-of-conditional-commands)
-- [Loops in Python (for, while)](#concept-of-loops-in-python)
-- [Functions](#concept-of-functions)
+- [دستورات شرطی (if, else, elif)](#concept-of-conditional-commands)
+- [حلقه ها در پایتون (for, while)](#concept-of-loops-in-python)
+- [تابع ها در پایتون ](#concept-of-functions)
 
 ***
 
-## 💎Concept of Conditional commands
-> Conditional statements in Python allow you to specify code that should be executed according to certain conditions. A conditional statement may be a single condition or a combination of several conditions.
+## 💎مفهوم دستورات شرطی
+> عبارات شرطی در پایتون به شما امکان می دهد کدی را مشخص کنید که باید طبق شرایط خاصی اجرا شود. یک دستور شرطی ممکن است یک شرط واحد یا ترکیبی از چند شرط باشد.
 
-### ⭕️ Python supports the usual logical conditions from mathematics:
+### ⭕️ پایتون از شرایط منطقی معمول ریاضیات پشتیبانی می کند:
 
-- Equals: a == b
-- Not Equals: a != b
-- Less than: a < b
-- Less than or equal to: a <= b
-- Greater than: a > b
-- Greater than or equal to: a >= b
-- These conditions can be used in several ways, most commonly in "if statements" and loops.
+- برابر است با: a == b
+- برابر نیست: a != b
+- کمتر از: a < ب
+- کمتر یا مساوی با: a <= b
+- بزرگتر از: a > b
+- بزرگتر یا مساوی با: a >= b
+- این شرایط را می توان به روش های مختلفی مورد استفاده قرار داد، معمولاً در «عبارات if» و حلقه ها.
 
-### 💢 if statement :
-> An "if statement" is written by using the if keyword.
+### 💢 استفاده از دستور if :
+> برای استفاده از دستور if از کلمه کلیدی if استفاده می‌کنیم 
 
 Example:
 ```python:
@@ -37,8 +37,8 @@ b is greater than a
 </br> 
 
 
-### 💢 Elif :
-> The elif keyword is Python's way of saying "if the previous conditions were not true, then try this condition"
+### 💢 دستور Elif :
+> کلمه کلیدی elif روشی است که پایتون می گوید: «اگر شرایط قبلی درست نبود، این شرط را امتحان کنید».
 
 Example:
 ```python:
@@ -56,8 +56,8 @@ a and b are equal
 
 </br> 
 
-### 💢 Else :
-> The else keyword catches anything which isn't caught by the preceding conditions.
+### 💢 دستور Else :
+> کلمه کلیدی else هر چیزی را که تحت شرایط قبلی قرار نگرفته است را می گیرد.
 
 Example:
 ```python:
@@ -77,13 +77,13 @@ a is greater than b
 
 ***
 
-## 💎Concept of Loops in Python
-> Loops in Python are one of the basic and powerful tools used to iterate over a block of code repeatedly based on certain conditions or sequence of data. There are two types of loops in Python
+## 💎مفهوم حلقه ها در پایتون
+> حلقه ها در پایتون یکی از ابزارهای اساسی و قدرتمندی هستند که برای تکرار بر روی یک بلوک کد به طور مکرر بر اساس شرایط خاص یا دنباله ای از داده ها استفاده می شود. دو نوع حلقه در پایتون وجود دارد
 
-### 💢 For Loops :
-> For loop is used when we want to iterate over a sequence (list, tuple, string, or any other iterable object) and execute the block of statements or code for each element of the sequence. The loop continues till the last element in the sequence is reached.
+### 💢 حلقه For :
+> حلقه for زمانی استفاده می شود که بخواهیم روی یک دنباله (لیست، تاپل، رشته یا هر شیء قابل تکرار دیگری) تکرار کنیم و بلوک عبارات یا کد را برای هر عنصر دنباله اجرا کنیم. حلقه تا رسیدن به آخرین عنصر در دنباله ادامه می یابد.
 
-With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc.
+با حلقه for می‌توانیم مجموعه‌ای از دستورات را، یک بار برای هر آیتم در یک لیست، تاپل، مجموعه و غیره اجرا کنیم.
 
 Example:
 ```python:
@@ -98,8 +98,8 @@ banana
 cherry
 ```
 
-#### 🔶 The break Statement
-> With the break statement we can stop the loop before it has looped through all the items:
+#### 🔶 دستور break
+> با دستور break می‌توانیم حلقه را قبل از اینکه تمام آیتم‌ها را حلقه کند متوقف کنیم:
 
 Example:
 ```python:
@@ -115,9 +115,9 @@ apple
 banana
 ```
 
-#### 🔶 The range() Function
-> To loop through a set of code a specified number of times, we can use the range() function,
-The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and ends at a specified number.
+#### 🔶 تابع range().
+> برای حلقه زدن مجموعه ای از کدها به تعداد مشخص، می توانیم از تابع range() استفاده کنیم.
+تابع range() دنباله‌ای از اعداد را برمی‌گرداند که به طور پیش‌فرض از 0 شروع می‌شود و به صورت پیش‌فرض 1 افزایش می‌یابد و به یک عدد مشخص ختم می‌شود.
 Example:
 
 ```python:
@@ -134,8 +134,8 @@ Output :
 5
 ```
 
-#### 🔶 Else in For Loop
-> The else keyword in a for loop specifies a block of code to be executed when the loop is finished:
+#### 🔶 ه else در For Loop
+> کلمه کلیدی else در یک حلقه for، بلوکی از کد را مشخص می کند که باید پس از اتمام حلقه اجرا شود:
 
 Example:
 ```python:
@@ -155,8 +155,8 @@ Output :
 Finally finished!
 ```
 
-### 💢 The while Loop :
-> While loop is used when we want to repeat a statement while the given condition is true. The loop continues till the condition becomes false.
+### 💢 حلقه while :
+> حلقه while زمانی استفاده می شود که بخواهیم یک دستور را در حالی که شرط داده شده درست است تکرار کنیم. حلقه تا زمانی که شرط نادرست شود ادامه می یابد.
 
 
 Example:
@@ -175,8 +175,8 @@ Output :
 5
 ```
 
-#### 🔶 The break Statement
-> With the break statement we can stop the loop even if the while condition is true:
+#### 🔶 دستور break 
+> با دستور break می توانیم حلقه را متوقف کنیم حتی اگر شرط while درست باشد:
 
 Example:
 ```python:
@@ -195,8 +195,8 @@ Output :
 ```
 
 
-#### 🔶 Else in For Loop
-> With the else statement we can run a block of code once when the condition no longer is true:
+#### 🔶 ه Else در while Loop
+> با دستور else می‌توانیم یک بلوک کد را یکبار اجرا کنیم، زمانی که شرط دیگر درست نیست:
 
 Example:
 ```python:
@@ -219,15 +219,15 @@ i is no longer less than 6
 
 ***
 
-## 💎Concept of Functions
-> A function is a block of code which only runs when it is called. You can pass data, known as parameters, into a function. A function can return data as a result.
+## 💎مفهوم توابع
+> یک تابع یک بلوک از کد است که فقط زمانی اجرا می شود که فراخوانی شود. شما می توانید داده ها را که به عنوان پارامتر شناخته می شوند، به یک تابع منتقل کنید. یک تابع می تواند در نتیجه داده ها را برگرداند.
 
 Example:
 ```python:
 def my_function():
   print("Hello from a function")
 ```
-#### 🔶 Calling a Function
+#### 🔶 فراخواندن یک تابع 
 Example:
 ```python:
 def my_function():
