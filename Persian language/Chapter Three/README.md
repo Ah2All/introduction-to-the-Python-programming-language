@@ -1,48 +1,48 @@
 ## 🔹موضوعاتی که در این فصل بحث می کنیم:
 
-- [Concept of Variable](#concept-of-variable)
+- [مفهوم متغیر](#concept-of-variable)
 
-   - [How to define a variable in Python](#how-to-define-a-variable-in-python)
-   - [Rules for Python variables](#%EF%B8%8F-rules-for-python-variables)
+   - [نحوه تعریف متغیر در پایتون](#how-to-define-a-variable-in-python)
+   - [قوانین برای متغیرهای پایتون](#%EF%B8%8F-rules-for-python-variables)
    
-- [Python Data Types](#-python-data-types)
+- [انواع داده ها در پایتون](#-python-data-types)
 
-   - ([string](#-python-strings), [integers](#-python-numbers), [bool](#-python-booleans), [float](#-python-numbers)) 
-   - Data Structures ([List](#-lists), [Tuple](#-tuples), [Dictionaries](#-dictionaries), [set](#-set))
+   - (ا[string](#-python-strings), [integers](#-python-numbers), [bool](#-python-booleans), [float](#-python-numbers)) 
+   - مجموعه داده ها ([List](#-lists), [Tuple](#-tuples), [Dictionaries](#-dictionaries), [set](#-set))
    
-- [Convert data types to each other](#convert-data-types-to-each-other)
+- [تبدیل انواع داده ها به یک دیگر](#convert-data-types-to-each-other)
 
 </br>
 
-## 💎Concept of Variable
-> In Python, a variable is a name that refers to a value. It is used to store and manipulate data. When you create a variable in Python, you must choose a name for it, assign it a value, and declare its data type (although in most cases, Python automatically detects the data type based on the assigned value).
+## 💎مفهوم متغیر
+> در پایتون، متغیر نامی است که به یک مقدار اشاره دارد. برای ذخیره و دستکاری داده ها استفاده می شود. هنگامی که متغیری را در پایتون ایجاد می کنید، باید نامی برای آن انتخاب کنید، به آن مقدار اختصاص دهید و نوع داده آن را اعلام کنید (اگرچه در بیشتر موارد، پایتون به طور خودکار نوع داده را بر اساس مقدار اختصاص داده شده تشخیص می دهد).
 
-**⭕️ It is like a container into which we pour something and then use it**
+**⭕️ مانند ظرفی است که در آن چیزی می ریزیم و بعد از آن استفاده می کنیم**
 
 </br>
 
 #
 
-### 🔻How to define a variable in Python🔻
-To define a variable in Python, we first specify the variable name and then use the equal sign (=) to assign the desired value to the variable. For example:
+### 🔻نحوه تعریف متغیر در پایتون🔻
+برای تعریف متغیر در پایتون ابتدا نام متغیر را مشخص می کنیم و سپس با استفاده از علامت مساوی (=) مقدار مورد نظر را به متغیر اختصاص می دهیم. مثلا:
 
 ```python:
 name = "John"
 age = 30
 height = 1.75
 ```
-In this example, three variables named name, age, and height are defined, and they point to the values "John", 30, and 1.75, respectively. These values can be strings, integers or floats, or even other data types.
+
 #
 </br>
 
-### ♨️ Rules for Python variables:
-- A variable name must start with a letter or the underscore character
-- A variable name cannot start with a number
-- A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
-- Variable names are case-sensitive (age, Age and AGE are three different variables)
-- A variable name cannot be any of the Python keywords.
+### ♨️ قوانین برای متغیرهای پایتون:
+- نام متغیر باید با یک حرف یا کاراکتر زیرخط شروع شود
+- نام متغیر نمی تواند با عدد شروع شود
+- نام متغیر فقط می تواند شامل کاراکترهای عددی و زیرخط باشد (A-z، 0-9 و _ )
+- نام متغیرها به حروف بزرگ و کوچک حساس هستند (سن، سن و AGE سه متغیر متفاوت هستند)
+- نام متغیر نمی تواند هیچ یک از کلمات کلیدی پایتون باشد.
 
-For example:
+مثلا:
 ```python:
 myvar = "John"
 my_var = "John"
@@ -51,76 +51,76 @@ myVar = "John"
 MYVAR = "John"
 myvar2 = "John"
 ```
-Illegal variable names:
+نام متغیرهای غیرقانونی:
 ```python:
 2myvar = "John"
 my-var = "John"
 my var = "John"
 ```
 #
-### 💢 Python Variables - Assign Multiple Values
-#### 🔹Many Values to Multiple Variables
-Python allows you to assign values to multiple variables in one line:
+### 💢 متغیرهای پایتون - چندین مقدار اختصاص دهید
+#### 🔹متغیرهای چندگانه
+پایتون به شما این امکان را می دهد که در یک خط به چندین متغیر مقادیر اختصاص دهید:
 ```python:
 x, y, z = "Orange", "Banana", "Cherry"
 print(x)
 print(y)
 print(z)
 ```
-#### 🔹One Value to Multiple Variables
-And you can assign the same value to multiple variables in one line:
+#### 🔹یک مقدار به چند متغیر
+و می توانید یک مقدار را به چندین متغیر در یک خط اختصاص دهید:
 ```python:
 x = y = z = "Orange"
 print(x)
 print(y)
 print(z)
 ```
-### 💢 Python - Output Variables
-#### 🔹Output Variables
-The Python print() function is often used to output variables.
+### 💢خروجی متغییر
+#### 🔹خروجی متغییر ها
+تابع print() Python اغلب برای خروجی متغیرها استفاده می شود.
 ```python:
 x = "Python is awesome"
 print(x)
 ```
-Output :
+خروجی :
 ```python:
 Python is awesome
 ```
-In the print() function, you output multiple variables, separated by a comma:
+در تابع print() شما چندین متغیر را که با کاما از هم جدا شده اند، خروجی می دهید:
 ```python:
 x = "Python"
 y = "is"
 z = "awesome"
 print(x, y, z)
 ```
-Output :
+خروجی :
 ```python:
 Python is awesome
 ```
-You can also use the + operator to output multiple variables:
+همچنین می توانید از عملگر + برای خروجی چندین متغیر استفاده کنید:
 ```python:
 x = "Python"
 y = "is"
 z = "awesome"
 print(x + y + z)
 ```
-Output :
+خروجی :
 ```python:
 Python is awesome
 ```
-**🛑 Notice the space character after "Python " and "is ", without them the result would be "Pythonisawesome".**
+**🛑 به کاراکتر Space بعد از "Python" و "is" توجه کنید، بدون آنها نتیجه "Pythonisawesome" خواهد بود.**
 
-For numbers, the + character works as a mathematical operator:
+برای اعداد، کاراکتر + به عنوان یک عملگر ریاضی عمل می کند:
 ```python:
 x = 5
 y = 10
 print(x + y)
 ```
-Output :
+خروجی :
 ```python:
 15
 ```
-Example :
+مثال :
 ```python
 name = "John"
 message = "Hello, " + name + "!"
@@ -132,52 +132,52 @@ print(message) # Output: Hello, John!
 
 </br>
 
-## 💎 Python Data Types
-> In Python, a data type refers to the type of value that a variable holds. Python has several built-in data types including:
+## 💎 انواع داده پایتون
+> در پایتون، یک نوع داده به نوع مقداری که یک متغیر در خود نگه می دارد اشاره دارد. پایتون چندین نوع داده داخلی دارد از جمله:
 
-- Integers (int): Whole numbers without decimal points
-- Floating-point numbers (float): Numbers with decimal points
-- Strings (str): Ordered sequence of characters enclosed in quotes (single or double)
-- Booleans (bool): True or False values used for logical operations
-- Lists (list): Ordered, mutable collection of values enclosed in square brackets
-- Tuples (tuple): Ordered, immutable collection of values enclosed in parentheses
-- Sets (set): Unordered, mutable collection of unique values enclosed in curly braces
-- Dictionaries (dict): Collection of key-value pairs enclosed in curly braces with colons separating the keys and values.
+- Integers (int): اعداد کامل بدون اعشار
+- Floating-point numbers (float): اعداد با اعشار
+- Strings (str): دنباله ترتیب کاراکترهای محصور شده در نقل قول (تک یا دوتایی)
+- Booleans (bool): مقادیر درست یا غلط برای عملیات منطقی
+- Lists (list):  مجموعه مرتب شده و قابل تغییر ا مقادیر 
+- Tuples (tuple): مجموعه‌ای مرتب و تغییرناپذیر از مقادیر 
+- Sets (set): مجموعه نامرتب و قابل تغییر از مقادیر منحصر به فرد محصور 
+- Dictionaries (dict): مجموعه‌ای از جفت‌های کلید-مقدار.
 
-**Data types are important because they determine the type of operations we can perform on a variable, how it behaves in certain situations, and how it is stored in memory.**
+**انواع داده ها مهم هستند زیرا نوع عملیاتی را که می توانیم روی یک متغیر انجام دهیم، نحوه رفتار آن در موقعیت های خاص و نحوه ذخیره آن در حافظه را تعیین می کنند.**
 </br>
 
 #
 
 </br>
 
-### 📌 Python Strings
-> Strings in python are surrounded by either single quotation marks, or double quotation marks. 
-**'hello' is the same as "hello".**
-Example:
+### 📌 رشته ها در پایتون 
+> رشته‌ها در پایتون توسط یک علامت نقل قول یا دو علامت نقل قول احاطه شده‌اند.
+**'hello' مثل این هست  "hello".**
+مثال:
 ```python
 print("Hello")
 print('Hello')
 ```
-Output :
+خروجی :
 ```python:
 Hello
 Hello
 ```
-#### 🔹Assign String to a Variable
-Assigning a string to a variable is done with the variable name followed by an equal sign and the string:
-Example:
+#### 🔹رشته را به یک متغیر اختصاص دهید
+تخصیص یک رشته به یک متغیر با نام متغیر و به دنبال آن علامت مساوی و رشته انجام می شود:
+مثال:
 ```python:
 a = "Hello"
 print(a)
 ```
-Output :
+خروجی :
 ```python:
 Hello
 ```
-#### 🔹Multiline Strings
-You can assign a multiline string to a variable by using three quotes:
-Example:
+#### 🔹رشته های چند خطی
+با استفاده از سه نقل قول می توانید یک رشته چند خطی را به یک متغیر اختصاص دهید:
+مثال:
 ```python:
 a = """Lorem ipsum dolor sit amet,
 consectetur adipiscing elit,
@@ -193,7 +193,7 @@ sed do eiusmod tempor incididunt
 ut labore et dolore magna aliqua."""
 print(a)
 ```
-Output :
+خروجی :
 ```python:
 Lorem ipsum dolor sit amet,
 consectetur adipiscing elit,
@@ -201,22 +201,22 @@ sed do eiusmod tempor incididunt
 ut labore et dolore magna aliqua.
 ```
 
-#### 💢 Slicing Strings
-You can return a range of characters by using the slice syntax.
-Specify the start index and the end index, separated by a colon, to return a part of the string.
-Example:
+#### 💢 برش رشته ها
+با استفاده از نحو slice می توانید طیف وسیعی از کاراکترها را برگردانید.
+برای برگرداندن بخشی از رشته، شاخص شروع و اندیس پایان را که با یک دو نقطه از هم جدا شده اند، مشخص کنید.
+مثال:
 ```python:
 b = "Hello, World!"
 print(b[2:5])
 ```
-Output :
+خروجی :
 ```python:
 llo
 ```
-**⭕️Note: The first character has index 0.**
+**⭕️نکته: کاراکتر اول دارای شاخص 0 است.**
 
-#### 💢 Modify Strings
-Python has a set of built-in methods that you can use on strings.
+#### 💢 رشته ها را اصلاح کنید
+پایتون مجموعه ای از متدهای داخلی دارد که می توانید روی رشته ها استفاده کنید.
 Example:
 ```python:
 string = "python is amazing"
@@ -261,23 +261,23 @@ Alireza Allahyarian
 
 #
 
-### 📌 Python Numbers
-There are three numeric types in Python:
+### 📌 اعداد در پایتون 
+سه نوع عددی در پایتون وجود دارد:
 
 - int
 - float
 - complex
 
-Example :
+مثال :
 ```python:
 x = 1    # int
 y = 2.8  # float
 z = 1j   # complex
 ```
-#### 💢 Integer
-Int, or integer, is a whole number, positive or negative, without decimals, of unlimited length.
+#### 💢 اعداد صحیح 
+عدد صحیح، یک عدد کامل، مثبت یا منفی، بدون اعشار، با طول نامحدود است.
 
-Example :
+مثال :
 ```python:
 x = 1
 y = 35656222554887711
@@ -288,14 +288,14 @@ print(type(y))
 print(type(z))
 ```
 
-Output :
+خروجی :
 ```python:
 <class 'int'>
 <class 'int'>
 <class 'int'>
 ```
 
-▫️ A slightly more practical example:
+▫️ یک مثال کمی کاربردی تر:
 ```python:
 # Define a value of type int and assign a value to it
 age = 30
@@ -305,15 +305,15 @@ print(age)
 year_born = 2023 - age
 print("you in the year", year_born, "you are born")
 ```
-Output :
+خروجی :
 ```python:
 you in the year 1,993 you are born
 ```
 
-#### 💢 Float
-Float, or "floating point number" is a number, positive or negative, containing one or more decimals.
+#### 💢 اعداد اعشاری 
+اعداداعشاری یک عدد مثبت یا منفی است که شامل یک یا چند اعشار است.
 
-Example :
+مثال :
 ```python:
 x = 1.10
 y = 1.0
@@ -324,17 +324,17 @@ print(type(y))
 print(type(z))
 ```
 
-Output :
+خروجی :
 ```python:
 <class 'float'>
 <class 'float'>
 <class 'float'>
 ```
 
-#### 💢 Complex
-Complex numbers are written with a "j" as the imaginary part:
+#### 💢 اعداد مختلط 
+اعداد مختلط با یک "j" به عنوان قسمت خیالی نوشته می شوند:
 
-Example :
+مثال :
 ```python:
 x = 3+5j
 y = 5j
@@ -345,7 +345,7 @@ print(type(y))
 print(type(z))
 ```
 
-Output :
+خروجی :
 ```python:
 <class 'complex'>
 <class 'complex'>
@@ -354,24 +354,24 @@ Output :
 
 #
 
-### 📌 Python Booleans
-Booleans represent one of two values: True or False.
+### 📌 بولین های پایتون
+اBoolean یکی از دو مقدار True یا False را نشان می دهد.
 
-##### 🔹Boolean Values
-In programming you often need to know if an expression is True or False.
+##### 🔹مقادیر بولی
+در برنامه نویسی اغلب باید بدانید که آیا یک عبارت True یا False است.
 
-You can evaluate any expression in Python, and get one of two answers, True or False.
+شما می توانید هر عبارتی را در پایتون ارزیابی کنید و یکی از دو پاسخ درست یا غلط را دریافت کنید.
 
-When you compare two values, the expression is evaluated and Python returns the Boolean answer:
+وقتی دو مقدار را با هم مقایسه می کنید، عبارت مورد ارزیابی قرار می گیرد و پایتون پاسخ بولی را برمی گرداند:
 
-Example :
+مثال :
 ```python:
 print(10 > 9)
 print(10 == 9)
 print(10 < 9)
 ```
 
-Output :
+مثال :
 ```python:
 True
 False
@@ -380,96 +380,95 @@ False
 
 #
 
-### 📌 Data Structures(List, Tuple, Dictionaries, set)
+### 📌 ساختارهای داده (فهرست، تاپل، دیکشنری، مجموعه)
 
-#### 💢 Lists
-Lists are used to store multiple items in a single variable.
+#### 💢 لیست ها
+لیست ها برای ذخیره چندین مورد در یک متغیر استفاده می شوند.
 
-Lists are one of 4 built-in data types in Python used to store collections of data, the other 3 are Tuple, Set, and Dictionary, all with different qualities and usage.
+لیست ها یکی از 4 نوع داده داخلی در پایتون هستند که برای ذخیره مجموعه داده ها استفاده می شوند، 3 نوع دیگر Tuple، Set و Dictionary هستند که همه با کیفیت ها و کاربردهای متفاوتی هستند.
 
-Lists are created using square brackets:
+لیست ها با استفاده از براکت ایجاد می شوند:
 
-Example :
+مثال :
 ```python:
 thislist = ["apple", "banana", "cherry"]
 print(thislist)
 ```
 
-Output :
+مثال :
 ```python:
 ['apple', 'banana', 'cherry']
 ```
 
-Access Items:
-Example :
+دسترسی به آیتم یک لیست:
+مثال :
 ```python:
 thislist = ["apple", "banana", "cherry"]
 print(thislist[1]))
 ```
-Output :
+خروجی :
 ```python:
 banana
 ```
-**⭕️ The first item has index 0.**
+**⭕️ اولین مورد دارای شاخص 0 است.**
 
-**⭕️ Negative indexing means start from the end -1 refers to the last item, -2 refers to the second last item etc..**
+**⭕️ نمایه سازی منفی یعنی شروع از انتها -1 به آخرین مورد، -2 به دومین مورد آخر و غیره اشاره دارد.**
 
-Range of Indexes: 
-> You can specify a range of indexes by specifying where to start and where to end the range.
+محدوده شاخص ها:
+> می‌توانید با تعیین مکان شروع و پایان محدوده، محدوده‌ای از شاخص‌ها را مشخص کنید.
 
 
-Example :
+مثال :
 ```python:
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 print(thislist[2:5])
 ```
-Output :
+خروجی :
 ```python:
 ['cherry', 'orange', 'kiwi']
 ```
 
-🔶 Change List Items: 
-> To change the value of a specific item, refer to the index number
+🔶 تغییر موارد لیست:
+> برای تغییر مقدار یک مورد خاص، به شماره فهرست مراجعه کنید
 
-Example :
+مثال :
 ```python:
 thislist = ["apple", "banana", "cherry"]
 thislist[1] = "blackcurrant"
 print(thislist)
 ```
-Output :
+خروجی :
 ```python:
 ['apple', 'blackcurrant', 'cherry']
 ```
 
-🔶 Change a Range of Item Values
-> To change the value of items within a specific range, define a list with the new values, and refer to the range of index numbers where you want to insert the new values
+🔶 محدوده ای از مقادیر آیتم ها را تغییر دهید
+> برای تغییر مقدار اقلام در یک محدوده خاص، لیستی با مقادیر جدید تعریف کنید و به محدوده اعداد فهرستی که می خواهید مقادیر جدید را درج کنید مراجعه کنید.
 
-Example :
+مثال :
 ```python:
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
 thislist[1:3] = ["blackcurrant", "watermelon"]
 print(thislist)
 ```
-Output :
+خروجی :
 ```python:
 ['apple', 'blackcurrant', 'watermelon', 'orange', 'kiwi', 'mango']
 ```
 
-🔶 Insert Items
-> To insert a new list item, without replacing any of the existing values, we can use the insert() method.
-
-Example :
+🔶 موارد را درج کنید
+> برای درج یک آیتم لیست جدید، بدون جایگزینی هیچ یک از مقادیر موجود، می توانیم از متد insert() استفاده کنیم.
+مثال :
 ```python:
 thislist = ["apple", "banana", "cherry"]
 thislist.insert(2, "watermelon")
 print(thislist)
 ```
-Output :
+خروجی :
 ```python:
 ['apple', 'banana', 'watermelon', 'cherry']
 ```
-**⭕️ As a result of the example above, the list will now contain 4 items**
+**⭕️ در نتیجه مثال بالا، لیست اکنون شامل 4 مورد خواهد بود**
 
 🔶 List Methods
 ```python:
@@ -499,11 +498,11 @@ my_list.sort()
 print(my_list) # Output: [1, 2, 3, 4, 5]
 ```
 
-#### 💢 Dictionaries
-Dictionaries are used to store data values in key:value pairs.
-A dictionary is a collection which is ordered*, changeable and do not allow duplicates.
+#### 💢 دیکشنری ها
+دیکشنری ها برای ذخیره مقادیر داده در جفت کلید:مقدار استفاده می شوند.
+دیکشنری مجموعه ای است که سفارش داده شده*، قابل تغییر است و اجازه تکرار ندارد.
 
-Example :
+مثال :
 ```python:
 thisdict = {
   "brand": "Ford",
@@ -512,16 +511,16 @@ thisdict = {
 }
 print(thisdict)
 ```
-Output :
+خروجی :
 ```python:
 {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
 ```
 
-🔶 Dictionary Items
-> Dictionary items are ordered, changeable, and does not allow duplicates.
-> Dictionary items are presented in key:value pairs, and can be referred to by using the key name.
+🔶 آیتم های دیکشنری 
+> آیتم های دیکشنری مرتب، قابل تغییر هستند و اجازه تکرار ندارند.
+> آیتم های دیکشنری به صورت جفت کلید: ارزش ارائه می شوند و می توان با استفاده از نام کلید به آنها اشاره کرد.
 
-Example :
+مثال :
 ```python:
 thisdict = {
   "brand": "Ford",
@@ -530,17 +529,17 @@ thisdict = {
 }
 print(thisdict["brand"])
 ```
-Output :
+مثال :
 ```python:
 Ford
 ```
 
-**⭕️ Dictionaries are changeable, meaning that we can change, add or remove items after the dictionary has been created.**
+**⭕️ دیکشنری ها قابل تغییر هستند، به این معنی که بعد از ایجاد دیکشنری می توانیم موارد را تغییر دهیم، اضافه یا حذف کنیم.**
 
-🔶 Duplicates Not Allowed
-> Dictionaries cannot have two items with the same key:
+تکراری مجاز نیست
+> دیکشنری نمی تواند دو مورد با یک کلید داشته باشد:
 
-Example :
+مثال :
 ```python:
 thisdict = {
   "brand": "Ford",
@@ -550,28 +549,27 @@ thisdict = {
 }
 print(thisdict)
 ```
-Output :
+خروجی :
 ```python:
 {'brand': 'Ford', 'model': 'Mustang', 'year': 2020}
 ```
 
-🔶 The dict() Constructor
-> It is also possible to use the dict() constructor to make a dictionary.
-
-Example :
+🔶 سازنده dict().
+> همچنین می توان از سازنده dict() برای ساخت دیکشنری استفاده کرد.
+مثال :
 ```python:
 thisdict = dict(name = "John", age = 36, country = "Norway")
 print(thisdict)
 ```
-Output :
+خروجی :
 ```python:
 {'name': 'John', 'age': 36, 'country': 'Norway'}
 ```
 
-🔶 Change Values
-> You can change the value of a specific item by referring to its key name:
+🔶 تغییر مقدار
+> می توانید مقدار یک مورد خاص را با مراجعه به نام کلید آن تغییر دهید:
 
-Example :
+مثال :
 ```python:
 thisdict = {
   "brand": "Ford",
@@ -580,7 +578,7 @@ thisdict = {
 }
 thisdict["year"] = 2018
 ```
-Output :
+مثال :
 ```python:
 {'brand': 'Ford', 'model': 'Mustang', 'year': 2018}
 ```
@@ -635,62 +633,61 @@ d.update(d1)
 print(d)    # Output: {1: 'red', 2: 'blue', 3: 'green', 4: 'yellow'}
 ```
 
-#### 💢 Set
-Sets are used to store multiple items in a single variable.
-Set is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Tuple, and Dictionary, all with different qualities and usage.
+#### 💢 مجموعه
+مجموعه ها برای ذخیره چندین آیتم در یک متغیر استفاده می شوند.
+یکی از 4 نوع داده داخلی در پایتون است که برای ذخیره مجموعه داده ها استفاده می شود، 3 نوع دیگر List، Tuple و Dictionary هستند که همگی با کیفیت ها و کاربردهای متفاوتی هستند.
 
-**⭕️ Set items are unchangeable, but you can remove items and add new items**
+**⭕️ موارد تنظیم شده غیر قابل تغییر هستند، اما می توانید موارد را حذف کرده و موارد جدید اضافه کنید**
 
-Example :
+مثال :
 ```python:
 thisset = {"apple", "banana", "cherry"}
 print(thisset)
 ```
-Output :
+خروجی :
 ```python:
 {'banana', 'cherry', 'apple'}
 ```
 
-- Set items are unordered, unchangeable, and do not allow duplicate values.
-- Unordered means that the items in a set do not have a defined order.
-- Set items can appear in a different order every time you use them, and cannot be referred to by index or key.
+- موارد مجموعه نامرتب، غیرقابل تغییر هستند و اجازه مقادیر تکراری را نمی دهند.
+- بدون ترتیب به این معنی است که آیتم های یک مجموعه دارای ترتیب تعریف شده ای نیستند.
+- آیتم های مجموعه می توانند هر بار که از آنها استفاده می کنید با ترتیب متفاوتی ظاهر شوند و نمی توان با فهرست یا کلید به آنها اشاره کرد.
 
-🔶 Access Set Items
-> You cannot access items in a set by referring to an index or a key.
-
-Example :
+🔶 به موارد مجموعه دسترسی داشته باشید
+> نمی توانید با مراجعه به فهرست یا کلید به موارد موجود در یک مجموعه دسترسی پیدا کنید.
+مثال :
 ```python:
 thisset = {"apple", "banana", "cherry"}
 
 for x in thisset:
   print(x)
 ```
-Output :
+خروجی :
 ```python:
 banana
 cherry
 apple
 ```
 
-Example :
+مثال :
 ```python:
 thisset = {"apple", "banana", "cherry"}
 print("banana" in thisset)
 ```
-Output :
+خروجی :
 ```python:
 True
 ```
 
-🔶 The set() Constructor
-> It is also possible to use the set() constructor to make a set.
+🔶 سازنده () set
+> همچنین می توان از سازنده set() برای ساخت مجموعه استفاده کرد.
 
-Example :
+مثال :
 ```python:
 thisset = set(("apple", "banana", "cherry")) # note the double round-brackets
 print(thisset)
 ```
-Output :
+خروجی :
 ```python:
 {'banana', 'apple', 'cherry'}
 ```
@@ -718,61 +715,61 @@ print(set1.difference(set2)) # Output: {1, 2}
 **⭕️[Set Methods](https://www.w3schools.com/python/python_sets_methods.asp)⭕️**
 
 
-#### 💢 Tuples
-Tuples are used to store multiple items in a single variable.
-Tuple is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Set, and Dictionary, all with different qualities and usage.
-A tuple is a collection which is ordered and unchangeable.
+#### 💢 تاپل
+تاپل ها برای ذخیره چندین آیتم در یک متغیر استفاده می شوند.
+تاپل یکی از 4 نوع داده داخلی در پایتون است که برای ذخیره مجموعه داده ها استفاده می شود، 3 نوع دیگر List، Set و Dictionary هستند که همگی با کیفیت ها و کاربردهای متفاوتی هستند.
+تاپل مجموعه‌ای است منظم و غیرقابل تغییر.
 
-Example :
+مثال :
 ```python:
 thistuple = ("apple", "banana", "cherry")
 print(thistuple)
 ```
-Output :
+خروجی :
 ```python:
 ('apple', 'banana', 'cherry')
 ```
 
-🔶 Ordered
-> When we say that tuples are ordered, it means that the items have a defined order, and that order will not change.
+🔶 سفارش داد
+> وقتی می گوییم تاپل ها مرتب می شوند به این معنی است که موارد دارای ترتیب مشخصی هستند و ترتیب آن تغییر نمی کند.
 
-🔶 Unchangeable
-> Tuples are unchangeable, meaning that we cannot change, add or remove items after the tuple has been created.
+🔶 غیر قابل تغییر
+> تاپل ها غیر قابل تغییر هستند، به این معنی که پس از ایجاد تاپل نمی توانیم موارد را تغییر، اضافه یا حذف کنیم.
 
-🔶 Allow Duplicates
-> Since tuples are indexed, they can have items with the same value:
+🔶 تکراری را مجاز کنید
+> از آنجایی که تاپل ها ایندکس شده اند، می توانند مواردی با همان مقدار داشته باشند:
 
-Example :
+مثال :
 ```python:
 thistuple = ("apple", "banana", "cherry", "apple", "cherry")
 print(thistuple)
 ```
-Output :
+خروجی :
 ```python:
 ('apple', 'banana', 'cherry', 'apple', 'cherry')
 ```
 
-🔶 The tuple() Constructor
-> It is also possible to use the tuple() constructor to make a tuple.
+🔶 سازنده () tuple
+> همچنین می توان از سازنده ()tuple برای ساخت یک تاپل استفاده کرد.
 
-Example :
+مثال :
 ```python:
 thistuple = tuple(("apple", "banana", "cherry")) # note the double round-brackets
 print(thistuple)
 ```
-Output :
+خروجی :
 ```python:
 ('apple', 'banana', 'cherry')
 ```
 
-🔶 Access Tuple Items
-> In tuples, access to items is exactly like lists 
+🔶 به موارد تاپل دسترسی پیدا کنید
+> در تاپل ها، دسترسی به آیتم ها دقیقاً مانند لیست ها است
 
-🔶 Update Tuples
-> Once a tuple is created, you cannot change its values. Tuples are unchangeable, or immutable as it also is called.
-> But there is a workaround. You can convert the tuple into a list, change the list, and convert the list back into a tuple.
+🔶 تاپل ها را به روز کنید
+> هنگامی که یک تاپل ایجاد می شود، نمی توانید مقادیر آن را تغییر دهید. تاپل ها غیرقابل تغییر یا تغییر ناپذیر هستند که به آن نیز گفته می شود.
+> اما راه حلی وجود دارد. شما می توانید تاپل را به یک لیست تبدیل کنید، لیست را تغییر دهید، و لیست را دوباره به یک تاپل تبدیل کنید.
 
-Example :
+مثال :
 ```python:
 x = ("apple", "banana", "cherry")
 y = list(x)
@@ -781,17 +778,17 @@ x = tuple(y)
 
 print(x)
 ```
-Output :
+خروجی :
 ```python:
 ("apple", "kiwi", "cherry")
 ```
 
-**⭕️If you want to perform operations on tuples You can convert the tuple to a list, modify the list, and convert the list back to a tuple. ⭕️**
+**⭕️اگر می‌خواهید روی تاپل‌ها عملیات انجام دهید، می‌توانید تاپل را به لیست تبدیل کنید، لیست را تغییر دهید و لیست را دوباره به تاپل تبدیل کنید. ⭕️**
 
-🔶 Join Tuples
-> To join two or more tuples you can use the + operator:
+🔶 به تاپل بپیوندید
+> برای پیوستن به دو یا چند تاپل می توانید از عملگر + استفاده کنید:
 
-Example :
+مثال :
 ```python:
 tuple1 = ("a", "b" , "c")
 tuple2 = (1, 2, 3)
@@ -799,28 +796,27 @@ tuple2 = (1, 2, 3)
 tuple3 = tuple1 + tuple2
 print(tuple3)
 ```
-Output :
+خروجی :
 ```python:
 ('a', 'b', 'c', 1, 2, 3)
 ```
 
-🔶 Multiply Tuples
-> If you want to multiply the content of a tuple a given number of times, you can use the * operator:
+🔶 ضرب تاپل
+> اگر می خواهید محتوای یک تاپل را چندین بار ضرب کنید، می توانید از عملگر * استفاده کنید:
 
-Example :
+مثال :
 ```python:
 fruits = ("apple", "banana", "cherry")
 mytuple = fruits * 2
 
 print(mytuple)
 ```
-Output :
+خروجی :
 ```python:
 ('apple', 'banana', 'cherry', 'apple', 'banana', 'cherry')
 ```
 
 🔶 Tuple Methods
-> Python has two built-in methods that you can use on tuples.
 
 Example :
 ```python:
@@ -840,10 +836,10 @@ print(x) #output = 3
 
 ***
 
-## 💎Convert data types to each other
-Sometimes, you may need to perform conversions between the built-in types. To convert between types, you simply use the type name as a function.
+## 💎تبدیل انواع داده ها به یکدیگر
+گاهی اوقات، ممکن است نیاز به انجام تبدیل بین انواع داخلی داشته باشید. برای تبدیل بین انواع، شما به سادگی از نام نوع به عنوان یک تابع استفاده می کنید.
 
-#### 🔶 Function & Description
+#### 🔶 عملکرد و توضیحات
 
 | Function | Description |
 | ----------- | ----------- |
