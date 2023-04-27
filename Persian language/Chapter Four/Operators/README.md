@@ -1,4 +1,4 @@
-## 🔹The topics we discuss in this chapter:
+## 🔹موضوعاتی که در این فصل مورد بحث قرار می‌دهیم:
 
 - [عملگرهای حسابی](#-arithmetic-operators)
 - [عملگرهای مقایسه](#-comparison-operators)
@@ -14,8 +14,8 @@
 
 </br>
 
-### 💢 Arithmetic operators
-> Arithmetic operators are used with numeric values to perform common mathematical operations
+### 💢 عملگرهای حسابی
+> عملگرهای حسابی با مقادیر عددی برای انجام عملیات ریاضی رایج استفاده می شوند
 
 ```python:
 x = 10
@@ -32,9 +32,8 @@ print(x // y) # 2
 
 *** 
 
-### 💢 comparison operators
-> Comparison operators are used to compare two values
-
+### 💢 عملگرهای مقایسه
+> عملگرهای مقایسه برای مقایسه دو مقدار استفاده می شوند
 ```python:
 x = 10
 y = 5
@@ -49,8 +48,8 @@ print(x <= y) # False
 
 *** 
 
-### 💢 Assignment operators
-> Assignment operators are used to assign values to variables
+### 💢 عملگرهای واگذاری
+> عملگرهای انتساب برای تخصیص مقادیر به متغیرها استفاده می شوند
 
 ```python:
 x = 5
@@ -84,8 +83,8 @@ print(x) # output: 8
 
 *** 
 
-### 💢 logical operators
-> Logical operators are used to combine conditional statements
+### 💢 عملگرهای منطقی
+> عملگرهای منطقی برای ترکیب عبارات شرطی استفاده می شوند
 
 ```python:
 x = 10
@@ -98,8 +97,8 @@ print(not(x == y)) # True
 
 *** 
 
-### 💢 membership operators
-> Membership operators are used to test if a sequence is presented in an object
+### 💢 عملگرهای عضویت
+> عملگرهای عضویت برای آزمایش اینکه آیا دنباله ای در یک شی ارائه شده است استفاده می شود
 
 ```python:
 x = ["apple", "banana"]
@@ -109,8 +108,8 @@ print("cherry" not in x) # True
 
 *** 
 
-### 💢 Identity operators
-> Identity operators are used to compare the objects, not if they are equal, but if they are actually the same object, with the same memory location
+### 💢 عملگرهای هویت
+> عملگرهای هویت برای مقایسه اشیاء استفاده می‌شوند، نه اگر برابر باشند، بلکه اگر در واقع یک شی با مکان حافظه یکسان باشند.
 
 ```python:
 # is a comparison with the operator
