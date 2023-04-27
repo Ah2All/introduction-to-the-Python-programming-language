@@ -62,7 +62,8 @@ This repository is written in [Persian](https://github.com/graymicro/introductio
      
    - 🌀 Convert data types to each other
   
-- Chapter Four
+- Chapter Four [(English language)](https://github.com/graymicro/introduction-to-the-Python-programming-language/tree/master/English%20language/Chapter%20Four/Operators)  [(Persian language)](https://github.com/graymicro/introduction-to-the-Python-programming-language/tree/master/Persian%20language/Chapter%20Four/Operators)
+
 
   -  🌀 Arithmetic operators 
   -  🌀 comparison operators
@@ -71,17 +72,20 @@ This repository is written in [Persian](https://github.com/graymicro/introductio
   -  🌀 membership operators
   -  🌀 Identity operators 
 
-- Chapter Five
+- Chapter Five [(English language)](https://github.com/graymicro/introduction-to-the-Python-programming-language/tree/master/English%20language/Chapter%20Five)  [(Persian language)](https://github.com/graymicro/introduction-to-the-Python-programming-language/tree/master/Persian%20language/Chapter%20Five)
+
 
   - 🌀 Conditional commands (if, else, elif)
   - 🌀 Loops in Python (for, while)
   - 🌀 Functions 
 
-- Chapter Six
+- Chapter Six [(English language)](https://github.com/graymicro/introduction-to-the-Python-programming-language/tree/master/English%20language/Chapter%20Six)  [(Persian language)](https://github.com/graymicro/introduction-to-the-Python-programming-language/tree/master/Persian%20language/Chapter%20Six)
+
 
   - 🌀 Libraries in Python (The concept of script, module, package, library and framework)
 
-- Chapter Seven 
+- Chapter Seven [(English language)](https://github.com/graymicro/introduction-to-the-Python-programming-language/tree/master/English%20language/Chapter%20One)  [(Persian language)](https://github.com/graymicro/introduction-to-the-Python-programming-language/tree/master/Persian%20language/Chapter%20One)
+
   - ⭕️ coming soon...
 
 ***
